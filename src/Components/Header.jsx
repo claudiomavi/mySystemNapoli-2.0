@@ -21,8 +21,8 @@ export default function Header() {
 				<li>
 					<NavLink
 						className={({ isActive }) => (isActive ? 'is-active' : '')}
-						to="/programas">
-						Programas
+						to="/modelli">
+						Prodotti
 					</NavLink>
 				</li>
 				<li>

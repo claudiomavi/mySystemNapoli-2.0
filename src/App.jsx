@@ -2,9 +2,11 @@ import { Route, Routes } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Pages/Home'
-import Programas from './Pages/Programas'
 import About from './Pages/About'
-import Curso from './Pages/Curso'
+import Categories from './Pages/product/Categories'
+import Types from './Pages/product/Types'
+import Models from './Pages/product/Models'
+import Model from './Pages/Product/Model'
 
 export default function App() {
 	return (
@@ -17,12 +19,20 @@ export default function App() {
 					element={<Home />}
 				/>
 				<Route
-					path="/programas"
-					element={<Programas />}
+					path="/modelli"
+					element={<Categories />}
 				/>
 				<Route
-					path="/programas/:curso"
-					element={<Curso />}
+					path="/modelli/:type"
+					element={<Types />}
+				/>
+				<Route
+					path="/modelli/:type/:models"
+					element={<Models />}
+				/>
+				<Route
+					path="/modelli/:type/:models/:model"
+					element={<Model />}
 				/>
 				<Route
 					path="/about"

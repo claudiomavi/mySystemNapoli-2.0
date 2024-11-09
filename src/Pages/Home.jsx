@@ -16,7 +16,7 @@ export default function Home() {
 						Ver Programas
 					</Link>
 					<Link
-						to="/contacto"
+						to="/about"
 						className="cta outline">
 						Habla conmigo
 					</Link>

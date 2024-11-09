@@ -17,11 +17,19 @@ export default function Models() {
 			<h2>{renderModels[0].name}</h2>
 			<ul>
 				{renderModels[0].models.map((model) => (
-					<Link
-						key={model.name}
-						to={`/modelli/${renderType[0].title}/${renderModels[0].name}/${model.name}`}>
-						{model.name}
-					</Link>
+					<div
+						className="type"
+						key={model.name}>
+						<Link
+							key={model.name}
+							to={`/modelli/${renderType[0].title}/${renderModels[0].name}/${model.name}`}>
+							<img
+								src={model.image}
+								alt={model.name}
+							/>
+							{model.name}
+						</Link>
+					</div>
 				))}
 			</ul>
 		</div>

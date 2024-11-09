@@ -4,21 +4,18 @@ export default function Home() {
 	return (
 		<main>
 			<div className="main-wrap">
-				<h1>Frase chula</h1>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae temporibus ad fuga,
-					obcaecati fugiat ipsum sed nostrum delectus deleniti ea.
-				</p>
+				<p>Il bello di sentirsi protetti.</p>
+				<h1>SCOPRI IL PRODOTTO CHE FA PER TE!</h1>
 				<div className="cta-buttons">
 					<Link
-						to="/programas"
+						to="/modelli/zanzariere"
 						className="cta">
-						Ver Programas
+						Zanzariere
 					</Link>
 					<Link
-						to="/about"
+						to="/modelli/tapparelle"
 						className="cta outline">
-						Habla conmigo
+						Tapparelle
 					</Link>
 				</div>
 			</div>

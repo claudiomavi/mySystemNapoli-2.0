@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* GENERAL CLASSES */
 
 :root {
 	--text: #000;
-	--accent: red;
+	--accent: green;
 	--active: blue;
-	--principal: burlywood;
+	--principal: white;
 	--background: grey;
 	--secondary: green;
 }
@@ -16,7 +16,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	color: var(--text);
-	font-family: 'Lora', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 body,
@@ -33,7 +33,8 @@ ul {
 }
 
 .cta {
-	background-color: var(--secondary);
+	background-color: var(--active);
+	color: var(--principal);
 	padding: 0.5rem 1rem;
 	border-radius: 1rem;
 }
@@ -115,8 +116,10 @@ footer i:hover {
 	text-align: center;
 }
 
-.main-wrap p {
-	line-height: 1.5rem;
+.main-wrap h1 {
+	font-size: 1.5rem;
+	letter-spacing: 0.2rem;
+	margin-bottom: 2rem;
 }
 
 .cta-buttons {
@@ -126,11 +129,25 @@ footer i:hover {
 
 .outline {
 	background-color: unset;
-	border: 2px solid var(--secondary);
-	color: var(--secondary);
+	border: 2px solid var(--active);
+	color: var(--text);
 }
 
-/* PROGRAMAS PAGE */
+/* CATEGORIES PAGE */
+
+.categories {
+	background-color: var(--principal);
+	color: var(--text);
+	margin: 2em 1em;
+	padding: 1em;
+	text-align: center;
+}
+
+.categories img {
+	width: 100%;
+}
+
+/* MODELS PAGE */
 
 .programas-wrap {
 	margin-top: 5em;
@@ -142,31 +159,82 @@ footer i:hover {
 	background-color: var(--principal);
 	color: var(--text);
 	margin: 5em 1em;
-	padding: 1em;
+	padding: 2em 1em;
 	text-align: center;
 }
 
 .programas-wrap h2 {
-	font-size: 1.25rem;
-}
-
-.programas-wrap ul {
-	display: flex;
-	flex-direction: column;
-	gap: 1em;
-}
-
-.programas-wrap ul li {
+	font-size: 1.5rem;
 	text-transform: uppercase;
 }
 
-.programas-wrap ul li a {
-	color: var(--accent);
+.type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* CURSO PAGE */
+.type img {
+	max-height: 250px;
+	width: 100%;
+}
 
-.curso {
+.type a {
+	text-transform: uppercase;
+}
+
+.type:hover {
+	font-weight: bold;
+}
+
+/* TYPES PAGE */
+
+.programas-wrap {
+	margin-top: 5em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	background-color: var(--principal);
+	color: var(--text);
+	margin: 5em 1em;
+	padding: 2em 1em;
+	text-align: center;
+}
+
+.programas-wrap h2 {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.type {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.type img {
+	max-height: 250px;
+	width: 100%;
+}
+
+.type a {
+	text-transform: uppercase;
+}
+
+.type a:hover {
+	font-weight: bold;
+}
+
+/* ABOUT PAGE */
+.about {
 	margin-top: 5em;
 	display: flex;
 	flex-direction: column;
@@ -180,7 +248,7 @@ footer i:hover {
 	text-align: center;
 }
 
-.curso h2 {
-	font-size: 1.25rem;
-	font-weight: normal;
+.about p {
+	line-height: 1.5rem;
+	letter-spacing: 0.2px;
 }

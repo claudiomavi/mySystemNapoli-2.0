@@ -7,7 +7,7 @@ export default function Header() {
 				<img
 					className="logo"
 					alt="logo of alpha pilates"
-					src="https://imgur.com/rhzIBBS.png"
+					src="https://imgur.com/cyiqM8q.png"
 				/>
 			</Link>
 			<ul>

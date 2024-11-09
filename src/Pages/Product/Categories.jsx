@@ -3,10 +3,16 @@ import { categoriesData } from '../../assets/datas/categoriesData'
 
 export default function Categories() {
 	return categoriesData.map((category) => (
-		<div
-			key={category.title}
-			className="curso">
-			<Link to={`/modelli/${category.title}`}>{category.title}</Link>
-		</div>
+		<Link
+			to={`/modelli/${category.title}`}
+			key={category.title}>
+			<div className="categories">
+				<img
+					src={category.image}
+					alt={category.title}
+				/>
+				<p>{category.title}</p>
+			</div>
+		</Link>
 	))
 }

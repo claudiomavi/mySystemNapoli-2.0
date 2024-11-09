@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<footer>
-			<h3>© Alpha Pilates 2024</h3>
+			<h3>© My System {new Date().getFullYear()}</h3>
 			<ul>
 				<li>
 					<a

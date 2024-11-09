@@ -3,9 +3,9 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Pages/Home'
 import About from './Pages/About'
-import Categories from './Pages/product/Categories'
-import Types from './Pages/product/Types'
-import Models from './Pages/product/Models'
+import Categories from './Pages/Product/Categories'
+import Types from './Pages/Product/Types'
+import Models from './Pages/Product/Models'
 import Model from './Pages/Product/Model'
 
 export default function App() {

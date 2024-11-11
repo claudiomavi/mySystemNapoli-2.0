@@ -1,6 +1,9 @@
 export default function Form() {
 	return (
-		<form action="POST">
+		<form
+			name="contatti"
+			action="POST"
+			data-netlify="true">
 			<h3>Contattaci:</h3>
 			<input
 				type="text"

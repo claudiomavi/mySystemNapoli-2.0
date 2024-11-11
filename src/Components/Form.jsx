@@ -6,7 +6,7 @@ export default function Form() {
 			data-netlify="true">
 			<input
 				type="hidden"
-				name="contatti"
+				name="form-name"
 				value="contatti"
 			/>
 			<h3>Contattaci:</h3>

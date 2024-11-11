@@ -15,7 +15,7 @@ export default function Models() {
 			key={renderModels[0].name}
 			className="programas-wrap">
 			<h2>{renderModels[0].name}</h2>
-			<ul>
+			<ul className="types">
 				{renderModels[0].models.map((model) => (
 					<div
 						className="type"

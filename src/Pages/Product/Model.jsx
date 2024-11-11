@@ -16,16 +16,16 @@ export default function Model() {
 		<div
 			key={renderModel[0].name}
 			className="programas-wrap model">
+			<img
+				src={renderModel[0].image}
+				alt={`image of ${renderModel[0].name}`}
+			/>
 			<h2>{renderModel[0].name}</h2>
 			<p>{renderModel[0].description}</p>
 			<div className="varianti">
 				{renderModel[0].varianti &&
 					renderModel[0].varianti.map((variante, index) => <h3 key={index}>{variante}</h3>)}
 			</div>
-			<img
-				src={renderModel[0].image}
-				alt={`image of ${renderModel[0].name}`}
-			/>
 			<div className="caratteristiche">
 				{renderModel[0].scorrimento && (
 					<p>

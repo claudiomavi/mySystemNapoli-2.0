@@ -2,8 +2,7 @@ export default function Form() {
 	return (
 		<form
 			name="contatti"
-			action="POST"
-			data-netlify="true">
+			action="POST">
 			<input
 				type="hidden"
 				name="form-name"

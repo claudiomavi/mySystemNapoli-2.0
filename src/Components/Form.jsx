@@ -4,6 +4,11 @@ export default function Form() {
 			name="contatti"
 			action="POST"
 			data-netlify="true">
+			<input
+				type="hidden"
+				name="contatti"
+				value="contatti"
+			/>
 			<h3>Contattaci:</h3>
 			<input
 				type="text"

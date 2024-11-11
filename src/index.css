@@ -290,6 +290,29 @@ form button {
 	font-weight: bold;
 }
 
+/* MODEL PAGE */
+
+.model .varianti {
+	width: 100%;
+	text-transform: uppercase;
+	text-align: right;
+}
+.model img {
+	width: 100%;
+}
+
+.model .caratteristiche {
+	width: 100%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+}
+
+.model .caratteristiche .bold {
+	font-weight: bold;
+}
+
 /* ABOUT PAGE */
 .about {
 	margin-top: 5em;

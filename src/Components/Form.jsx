@@ -1,8 +1,6 @@
 export default function Form() {
 	return (
-		<form
-			name="contatti"
-			action="POST">
+		<form name="contatti">
 			<input
 				type="hidden"
 				name="form-name"

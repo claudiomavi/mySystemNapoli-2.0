@@ -141,7 +141,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'irene laterale',
-						image: '.jpg',
+						image: 'https://imgur.com/8gnnEGZ.jpg',
 						description: 'Zanzariera a rete avvolgibile',
 						varianti: [`IRENE 45 LATERALE`, 'IRENE  DOPPIA'],
 						scorrimento: 'laterale',
@@ -169,6 +169,56 @@ export const categoriesData = [
 							'modelli TOP standard con Dual Hook (opzionalmente con magnete). Modelli telescopici a magnete oppure opzionalmente con gancio o Dual Hook. In caso di utilizzo del sistema Soft, è consigliabile richiedere chiusura con gancio. Modelli Basic con gancio opzionalmente con magnete. In fase d’ordine è consigliata la richiesta della maniglietta pieghevole esterna (quando è chiusa ha una sporgenza di 11 mm circa)',
 						cassonetto:
 							'arrotondato da 45 e 55 mm o squadrato da 40 e 50 mm, anche in versione con guide telescopiche, per l’installazione in vani non perfettamente in squadro',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'valeria',
+						image: 'https://imgur.com/SuQZOkV.jpg',
+						description:
+							'Zanzariera laterale a rete avvolgibile a molla, con bottoncino e doppio cassonetto',
+						varianti: [
+							'VALERIA TOP 40',
+							'VALERIA TOP 45',
+							'VALERIA TOP 50',
+							'VALERIA TOP 55',
+							'VALERIA BASIC 40',
+							'VALERIA BASIC 45',
+							'VALERIA BASIC 50',
+							'VALERIA BASIC 55',
+							'VALERIA TELESCOPICA 40',
+							'VALERIA TELESCOPICA 45',
+							'VALERIA TELESCOPICA 50',
+							'VALERIA TELESCOPICA 55',
+						],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura:
+							'modelli TOP standard con Dual Hook (opzionalmente con magnete). Modelli telescopici a magnete oppure opzionalmente con gancio o Dual Hook. In caso di utilizzo del sistema Soft, è consigliabile richiedere chiusura con gancio. Modelli Basic con gancio opzionalmente con magnete. In fase d’ordine è consigliata la richiesta della maniglietta pieghevole esterna (quando è chiusa ha una sporgenza di 11 mm circa)',
+						cassonetto:
+							'doppio, arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm, anche in versione con guide telescopiche, per l’installazione in vani non perfettamente in squadro',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'clara',
+						image: 'https://imgur.com/WIU1gJY.jpg',
+						description:
+							'Zanzariera laterale a rete avvolgibile a molla, con bottoncino, guida bassa a spigoli arrotondati',
+						varianti: [
+							'CLARA 45/55',
+							'CLARA 40/50',
+							'CLARA 015',
+							'CLARA TOP 45/55',
+							'CLARA TOP 40/50',
+							'CLARA DOPPIA 45/55',
+							'CLARA DOPPIA 40/50',
+							'CLARA TOP DOPPIA 45/55',
+							'CLARA TOP DOPPIA 40/50',
+						],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura:
+							'modelli TOP chiusura standard con Dual Hook (opzionalmente con magnete). Modelli base a magnete oppure opzionalmente con gancio o Dual Hook',
+						cassonetto: 'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm',
 						adatta: 'portafinestra',
 					},
 				],

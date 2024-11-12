@@ -8,6 +8,51 @@ export const categoriesData = [
 				image: 'https://imgur.com/sdiBx2r.jpg',
 				models: [
 					{
+						name: 'irene verticale',
+						image: 'https://imgur.com/NfDyeMe.jpg',
+						description: 'Zanzariera a rete avvolgibile',
+						varianti: ['IRENE 45 VERTICALE', 'IRENE 45 UP STANDARD', 'IRENE 45 UP REVERSE'],
+						scorrimento: 'verticale',
+						avvolgimento: 'a molla',
+						apertura: 'Push-Up, a pressione verso il basso',
+						cassonetto: 'arrotondato da 45 mm',
+						adatta: 'finestra',
+					},
+					{
+						name: 'vera',
+						image: 'https://imgur.com/gSa43Vv.jpg',
+						description: 'Zanzariera verticale a rete avvolgibile a molla con bottoncino',
+						varianti: [
+							'VERA TOP 45/55',
+							'VERA TOP 40/50',
+							'VERA 45/55',
+							'VERA TELESCOPICA 45/55',
+							'VERA TELESCOPICA 40/50',
+							'VERA ADVANCE 45/55',
+							'VERA BASIC 45/55',
+							'VERA BASIC 40/50',
+						],
+						scorrimento: 'verticale',
+						avvolgimento: 'a molla',
+						apertura:
+							'modelli Vera TOP con sistema Push-Up (a pressione verso il basso); altri modelli a scatto',
+						cassonetto:
+							'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm, anche in versione con guide telescopiche, per l’installazione in vani non perfettamente in squadro',
+						adatta: 'finestra',
+					},
+					{
+						name: 'clik-clak',
+						image: 'https://imgur.com/U7OXK3r.jpg',
+						description:
+							'Zanzariera verticale a rete avvolgibile a molla con chiusura a cricchetto e con bottoncino',
+						varianti: ['CLIK-CLAK 40', 'CLIK-CLAK 45', 'CLIK-CLAK 50', 'CLIK-CLAK 55'],
+						scorrimento: 'verticale',
+						avvolgimento: 'a molla',
+						apertura: 'con cricchetto',
+						cassonetto: 'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm',
+						adatta: 'finestra',
+					},
+					{
 						name: 'ketty',
 						image: 'https://imgur.com/sdiBx2r.jpg',
 						description: 'Zanzariera verticale a rete avvolgibile, con azionamento a catena',
@@ -17,7 +62,7 @@ export const categoriesData = [
 						apertura: 'a catena (mod. Ketty), con sistema PUSH UP (mod. Ketty Plus)',
 						cassonetto:
 							'arrotondato da 55 mm o squadrato da 50 mm, anche in versione con guide telescopiche per l’installazione in vani non perfettamente in squadro (mod. Ketty Plus)',
-						addatta: 'finestra / portafinestra',
+						adatta: 'finestra / portafinestra',
 					},
 					{
 						name: 'wind verticale',
@@ -43,52 +88,7 @@ export const categoriesData = [
 							'a scatto o con cricchetto oppure PushUp a pressione verso il basso (solo Wind Smart)',
 						cassonetto:
 							'arrotondato da 32 e 42 mm, anche in versione con testate telescopiche, per l’installazione in vani non perfettamente in squadro',
-						addatta: 'finestra / portafinestra (solo per Wind 42 mollacatena)',
-					},
-					{
-						name: 'irene verticale',
-						image: 'https://imgur.com/NfDyeMe.jpg',
-						description: 'Zanzariera a rete avvolgibile',
-						varianti: ['IRENE 45 VERTICALE', 'IRENE 45 UP STANDARD', 'IRENE 45 UP REVERSE'],
-						scorrimento: 'verticale',
-						avvolgimento: 'a molla',
-						apertura: 'Push-Up, a pressione verso il basso',
-						cassonetto: 'arrotondato da 45 mm',
-						addatta: 'finestra',
-					},
-					{
-						name: 'vera',
-						image: 'https://imgur.com/gSa43Vv.jpg',
-						description: 'Zanzariera verticale a rete avvolgibile a molla con bottoncino',
-						varianti: [
-							'VERA TOP 45/55',
-							'VERA TOP 40/50',
-							'VERA 45/55',
-							'VERA TELESCOPICA 45/55',
-							'VERA TELESCOPICA 40/50',
-							'VERA ADVANCE 45/55',
-							'VERA BASIC 45/55',
-							'VERA BASIC 40/50',
-						],
-						scorrimento: 'verticale',
-						avvolgimento: 'a molla',
-						apertura:
-							'modelli Vera TOP con sistema Push-Up (a pressione verso il basso); altri modelli a scatto',
-						cassonetto:
-							'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm, anche in versione con guide telescopiche, per l’installazione in vani non perfettamente in squadro',
-						addatta: 'finestra',
-					},
-					{
-						name: 'clik-clak',
-						image: 'https://imgur.com/U7OXK3r.jpg',
-						description:
-							'Zanzariera verticale a rete avvolgibile a molla con chiusura a cricchetto e con bottoncino',
-						varianti: ['CLIK-CLAK 40', 'CLIK-CLAK 45', 'CLIK-CLAK 50', 'CLIK-CLAK 55'],
-						scorrimento: 'verticale',
-						avvolgimento: 'a molla',
-						apertura: 'con cricchetto',
-						cassonetto: 'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm',
-						addatta: 'finestra',
+						adatta: 'finestra / portafinestra (solo per Wind 42 mollacatena)',
 					},
 				],
 			},
@@ -105,7 +105,51 @@ export const categoriesData = [
 						avvolgimento: 'a molla',
 						apertura: 'a magnete',
 						cassonetto: '',
-						addatta: 'portafinestra',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'bora top',
+						image: 'https://imgur.com/OtZFFJM.jpg',
+						description: 'Protezione e benessere in casa, meglio di come immagini.',
+						varianti: ['BORA TOP', 'BORA TOP DOPPIA', 'BORA TOP UP'],
+						scorrimento:
+							'laterale, si arresta manualmente e rilasciandola non si riavvolge completamente. Configurabile con una o più ante (fino a quattro)',
+						avvolgimento: 'a molla',
+						apertura: 'a magnete',
+						cassonetto: '',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'bora',
+						image: 'https://imgur.com/MuZlVGd.jpg',
+						description:
+							'Facile da installare e utilizzare, ti protegge dai piccoli insetti con praticità ed eleganza.',
+						varianti: [
+							`BORA`,
+							'BORA DOPPIA',
+							'BORA SR',
+							'BORA ANGOLARE',
+							'BORA UP',
+							'BORA UP MIDI',
+						],
+						scorrimento:
+							'laterale, si arresta manualmente. Configurabile con una o più ante (fino a quattro), solo per le doppie con chiusura centrale sarà fornito di serie il nuovo sistema di bloccaggio con',
+						avvolgimento: 'a molla',
+						apertura: 'a magnete',
+						cassonetto: '',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'irene laterale',
+						image: '.jpg',
+						description: 'Zanzariera a rete avvolgibile',
+						varianti: [`IRENE 45 LATERALE`, 'IRENE  DOPPIA'],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura: 'manuale, con maniglietta girevole e blocchi intermedi ogni 10 c',
+						cassonetto:
+							'arrotondato da 45 mm, è disponibile anche in versione con doppio cassonetto',
+						adatta: 'portafinestra',
 					},
 					{
 						name: 'lara',
@@ -125,7 +169,7 @@ export const categoriesData = [
 							'modelli TOP standard con Dual Hook (opzionalmente con magnete). Modelli telescopici a magnete oppure opzionalmente con gancio o Dual Hook. In caso di utilizzo del sistema Soft, è consigliabile richiedere chiusura con gancio. Modelli Basic con gancio opzionalmente con magnete. In fase d’ordine è consigliata la richiesta della maniglietta pieghevole esterna (quando è chiusa ha una sporgenza di 11 mm circa)',
 						cassonetto:
 							'arrotondato da 45 e 55 mm o squadrato da 40 e 50 mm, anche in versione con guide telescopiche, per l’installazione in vani non perfettamente in squadro',
-						addatta: 'portafinestra',
+						adatta: 'portafinestra',
 					},
 				],
 			},
@@ -144,7 +188,7 @@ export const categoriesData = [
 						apertura: 'motorizzata, controllabile anche con radiocomando',
 						cassonetto:
 							'squadrato autoportante da 100/125 mm, ispezionabile senza bisogno di smontare la meccanica',
-						addatta:
+						adatta:
 							'finestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate',
 					},
 				],

@@ -294,6 +294,7 @@ form button {
 	text-align: right;
 }
 .model img {
+	max-height: 250px;
 	width: 100%;
 }
 

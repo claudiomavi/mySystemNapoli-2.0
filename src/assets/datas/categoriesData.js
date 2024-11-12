@@ -221,6 +221,29 @@ export const categoriesData = [
 						cassonetto: 'arrotondato da 45 o 55 mm o squadrato da 40 e 50 mm',
 						adatta: 'portafinestra',
 					},
+					{
+						name: 'wind laterale',
+						image: 'https://imgur.com/wJ8ImuB.jpg',
+						description:
+							'Zanzariera laterale a rete avvolgibile, senza bottoncini, con azionamento a molla',
+						varianti: [
+							'WIND TOP 42 / TOP 42 DOPPIA',
+							'WIND TOP 32 / TOP 32 DOPPIA',
+							'WIND 32 LATERALE',
+							'WIND 42 LATERALE',
+							'WIND 42 LATERALE TELESCOPICA',
+							'WIND 32 DOPPIA',
+							'WIND 42 DOPPIA',
+							'WIND 42 DOPPIA TELESCOPICA',
+						],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura:
+							'modelli TOP con Dual Hook (opzionalmente con gancio). Modelli base solo a magnete. Modelli telescopici a magnete oppure opzionalmente con gancio o Dual Hook, in caso di utilizzo del sistema opzionale di rallentamento Soft, è consigliabile richiedere il gancio',
+						cassonetto:
+							' arrotondato da 32 e 42 mm, anche in versione con testata telescopica, per l’installazione in vani non perfettamente in squadro, è disponibile anche in versione con doppio cassonetto',
+						adatta: 'portafinestra',
+					},
 				],
 			},
 			{

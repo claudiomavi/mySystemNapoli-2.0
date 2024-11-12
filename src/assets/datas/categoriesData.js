@@ -98,7 +98,7 @@ export const categoriesData = [
 				models: [
 					{
 						name: 'bora mini',
-						image: 'https://imgur.com/2OOpltX.jpg',
+						image: 'https://imgur.com/8ZbK28L.jpg',
 						description: 'Massima protezione e comfort per la tua casa, con un ingombro… mini!',
 						varianti: [],
 						scorrimento: 'laterale, si arresta manualmente. Configurabile a un’anta',
@@ -109,7 +109,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'bora top',
-						image: 'https://imgur.com/OtZFFJM.jpg',
+						image: 'https://imgur.com/pTLMtLC.jpg',
 						description: 'Protezione e benessere in casa, meglio di come immagini.',
 						varianti: ['BORA TOP', 'BORA TOP DOPPIA', 'BORA TOP UP'],
 						scorrimento:
@@ -121,7 +121,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'bora',
-						image: 'https://imgur.com/MuZlVGd.jpg',
+						image: 'https://imgur.com/TJc3cql.jpg',
 						description:
 							'Facile da installare e utilizzare, ti protegge dai piccoli insetti con praticità ed eleganza.',
 						varianti: [
@@ -141,7 +141,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'irene laterale',
-						image: 'https://imgur.com/8gnnEGZ.jpg',
+						image: 'https://imgur.com/FqbIcSm.jpg',
 						description: 'Zanzariera a rete avvolgibile',
 						varianti: [`IRENE 45 LATERALE`, 'IRENE  DOPPIA'],
 						scorrimento: 'laterale',
@@ -241,7 +241,25 @@ export const categoriesData = [
 						apertura:
 							'modelli TOP con Dual Hook (opzionalmente con gancio). Modelli base solo a magnete. Modelli telescopici a magnete oppure opzionalmente con gancio o Dual Hook, in caso di utilizzo del sistema opzionale di rallentamento Soft, è consigliabile richiedere il gancio',
 						cassonetto:
-							' arrotondato da 32 e 42 mm, anche in versione con testata telescopica, per l’installazione in vani non perfettamente in squadro, è disponibile anche in versione con doppio cassonetto',
+							'arrotondato da 32 e 42 mm, anche in versione con testata telescopica, per l’installazione in vani non perfettamente in squadro, è disponibile anche in versione con doppio cassonetto',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'phantom top',
+						image: 'https://imgur.com/3E9CVgj.jpg',
+						description: 'Zanzariera laterale a rete avvolgibile con guida inferiore bassa',
+						varianti: [
+							'PHANTOM TOP 45',
+							'PHANTOM TOP 55',
+							'PHANTOM TOP 45 DOPPIA',
+							'PHANTOM TOP 55 DOPPIA',
+						],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura:
+							' con gancio (solo singolo cassonetto) o a magnete (versione a doppio cassonetto)',
+						cassonetto:
+							'arrotondato da 45 e 55 mm, disponibile anche in versione a doppio cassonetto',
 						adatta: 'portafinestra',
 					},
 				],

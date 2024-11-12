@@ -97,6 +97,17 @@ export const categoriesData = [
 				image: 'https://imgur.com/HtHeqpi.jpg',
 				models: [
 					{
+						name: 'bora mini',
+						image: 'https://imgur.com/2OOpltX.jpg',
+						description: 'Massima protezione e comfort per la tua casa, con un ingombro… mini!',
+						varianti: [],
+						scorrimento: 'laterale, si arresta manualmente. Configurabile a un’anta',
+						avvolgimento: 'a molla',
+						apertura: 'a magnete',
+						cassonetto: '',
+						addatta: 'portafinestra',
+					},
+					{
 						name: 'lara',
 						image: 'https://imgur.com/HtHeqpi.jpg',
 						description: 'Zanzariera laterale a rete avvolgibile a molla, con bottoncino',

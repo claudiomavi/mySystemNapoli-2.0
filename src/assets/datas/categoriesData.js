@@ -257,9 +257,27 @@ export const categoriesData = [
 						scorrimento: 'laterale',
 						avvolgimento: 'a molla',
 						apertura:
-							' con gancio (solo singolo cassonetto) o a magnete (versione a doppio cassonetto)',
+							'con gancio (solo singolo cassonetto) o a magnete (versione a doppio cassonetto)',
 						cassonetto:
 							'arrotondato da 45 e 55 mm, disponibile anche in versione a doppio cassonetto',
+						adatta: 'portafinestra',
+					},
+					{
+						name: 'snake top',
+						image: 'https://imgur.com/JwaE5w9.jpg',
+						description:
+							'Zanzariera a scorrimento laterale con guida inferiore bassa e senza bottoncini',
+						varianti: [
+							'SNAKE TOP 32',
+							'SNAKE TOP 42',
+							'SNAKE TOP 32 DOPPIA',
+							'SNAKE TOP 42 DOPPIA',
+						],
+						scorrimento: 'laterale',
+						avvolgimento: 'a molla',
+						apertura:
+							'con gancio (solo singolo cassonetto) o a magnete (versione a doppio cassonetto)',
+						cassonetto: 'arrotondato da 32/42, disponibile anche in versione doppio cassonetto',
 						adatta: 'portafinestra',
 					},
 				],

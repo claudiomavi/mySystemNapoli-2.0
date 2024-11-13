@@ -434,6 +434,79 @@ export const categoriesData = [
 				],
 			},
 			{
+				name: 'ante/pannello',
+				image: 'https://imgur.com/KhqZUk2.jpg',
+				models: [
+					{
+						name: 'antarex',
+						image: 'https://imgur.com/FpVsHXi.jpg',
+						description: 'Zanzariera ad anta battente',
+						varianti: ['ANTAREX', 'ANTAREX SALOON', 'ANTAREX CON MOLLA DI RITORNO'],
+						apertura: 'ad anta battente magnetica, con pomello',
+						adatta: 'portafinestra e finestra',
+						rete: 'in alluminio brunita di serie (argento opzionale), può essere richiesta anche in fibra di vetro o acciaio inox, rete\nnera STRONG, Tuffscreen™, PetScreen.\nPer installazioni in zone esposte a salsedine, si sconsiglia l’utilizzo di rete in\nalluminio o acciaio inox',
+						fornita: 'su misura',
+						note: 'assenza di profili a pavimento. È possibile realizzarla in diverse soluzioni e forme, ad una, due, tre o quattro ante. La robustezza della struttura garantisce versatilità d’impiego e permette l’applicazione sulle ante di materiali come la bachelite, il policarbonato o una lamiera in alluminio, fino a realizzare vere e proprie chiusure. L’Antarex può essere richiesta con cerniere a\n“saloon” oppure con cerniere a “molla di ritorno”',
+						opzione:
+							'sportello “catflap” (gattaiola), per il passaggio di piccoli animali domestici',
+					},
+					{
+						name: 'libra',
+						image: 'https://imgur.com/3y6ZPhI.jpg',
+						description: 'Zanzariera ad anta battente con impacchettamento a libro',
+						apertura:
+							'ad anta battente magnetica ed impacchettamento delle ante a libro, con pomello',
+						adatta: 'randi dimensioni',
+						rete: ' in alluminio brunita di serie (argento opzionale), può essere richiesta anche in fibra di vetro o acciaio inox, rete nera STRONG, Tuffscreen™, Petscreen. Per installazioni in zone esposte a salsedine, si sconsiglia l’utilizzo di rete in alluminio o acciaio inox',
+						fornita: 'su misura',
+						note: 'un’efficace gestione nella protezione degli spazi più ampi, mediante l’utilizzo fino a 9 ante, per una chiusura massima di 6,30 metri, con svariate combinazioni di apertura, sia centrali che laterali\nLa robustezza della struttura garantisce versatilità d’impiego e permette l’applicazione sulle ante di materiali come la bachelite, il policarbonato o una lamiera in alluminio, fino a realizzare vere e proprie chiusure',
+					},
+					{
+						name: 'alba',
+						image: 'https://imgur.com/NQBd6Ml.jpg',
+						description: 'Zanzariera a pannelli scorrevoli senza guida inferiore',
+						scorrimento: 'laterale',
+						apertura: 'ad anta scorrevole magnetica, con maniglia',
+						adatta: 'finestra / portafinestra',
+						rete: 'in alluminio brunita di serie (argento opzionale), ma può essere richiesta anche in fibra di vetro, acciaio inox, rete nera STRONG, Tuffsreen™, PetScreen',
+						fornita: 'su misura',
+						note: 'assenza di guida a pavimento. La robustezza della struttura garantisce versatilità d’impiego e permette l’applicazione sulle ante di materiali come la bachelite, il policarbonato o una lamiera in alluminio, fino a realizzare vere e proprie chiusure',
+					},
+					{
+						name: 'scorri',
+						image: 'https://imgur.com/rUfWOxq.jpg',
+						description: 'Zanzariera a pannelli scorrevoli',
+						scorrimento: 'verticale (a ghigliottina) o laterale',
+						apertura:
+							'ad anta scorrevole. È possibile richiederla a due, tre o quattro ante, che scorrono su due o tre binari, con possibilità di usufruire a richiesta dei profili compensatori.',
+						adatta: 'finestra e portafinestra',
+						rete: 'in alluminio brunita di serie (argento opzionale), ma può essere\n\nrichiesta anche in fibra di vetro, acciaio inox, rete nera STRONG, Tuffscreeen™, PetScreen. Per installazioni in zone esposte a salsedine, si sconsiglia l’utilizzo di rete in alluminio o acciaio inox.',
+						fornita:
+							'su misura. Per altezze superiori a 150 cm il traverso è standard ed è fissato a 900 mm da terra (rispetto alla base del traverso).',
+						opzione:
+							'maniglietta incassata\n\nProfilo ribassato\n\nLa guida bassa è standard per altezze superiori a 1800 mm sui modelli laterali. Per altezze inferiori viene implementata su richiesta. Viene fornita in versione a 2 o 3 binari, a seconda del numero delle ante. Il colore della guida inferiore è esclusivamente argento.',
+					},
+					{
+						name: 'pratik',
+						image: 'https://imgur.com/mlZK1ev.jpg',
+						description: 'Zanzariera a pannello fisso',
+						varianti: [
+							'PRATIK',
+							'NEW PRATIK',
+							'PRATIK UP',
+							'PRATIK ANGOLAZIONE VARIABILE',
+							'PRATIK CENTINATA',
+						],
+						adatta: 'finestra',
+						rete: 'in fibra di serie ma può essere richiesta anche in alluminio, acciaio inox, rete nera STRONG, Tuffscreen™. Per installazioni in zone esposte a salsedine, si sconsiglia l’utilizzo di rete in alluminio o acciaio inox',
+						fornita: 'su misura',
+						note: 'si fissa mediante attacchi a muro (di serie) o con magneti predisposti sugli angolari, con profilo magnetico perimetrale o utilizzando la coccinella per fissaggio frontale. La versione magnetica permette l’applicazione su finestra con protezione in ferro. Per le forme diverse dal modello a 4 angoli retti, è previsto l’utilizzo del profilo maggiorato, che può impiegare soltanto le coccinelle di fissaggio in alternativa alla foratura dei profili.',
+						tipologia:
+							'pannello fisso, disponibile in diverse soluzioni e forme alternative al modello a 4 angoli retti',
+					},
+				],
+			},
+			{
 				name: 'motorizzate',
 				image: 'https://imgur.com/YKsVepu.jpg',
 				models: [

@@ -52,6 +52,51 @@ export default function Model() {
 						<span className="bold">Addatta per:</span> {renderModel[0].addatta}
 					</p>
 				)}
+				{renderModel[0].rete && (
+					<p>
+						<span className="bold">Rete:</span> {renderModel[0].rete}
+					</p>
+				)}
+				{renderModel[0].fornita && (
+					<p>
+						<span className="bold">Viene fornita:</span> {renderModel[0].fornita}
+					</p>
+				)}
+				{renderModel[0].line && (
+					<p>
+						<span className="bold">Color-Line:</span> {renderModel[0].line}
+					</p>
+				)}
+				{renderModel[0].bottoncino && (
+					<p>
+						<span className="bold">Bottoncino:</span> {renderModel[0].bottoncino}
+					</p>
+				)}
+				{renderModel[0].opzione && (
+					<p>
+						<span className="bold">Opzionale:</span> {renderModel[0].opzione}
+					</p>
+				)}
+				{renderModel[0].attacco && (
+					<p>
+						<span className="bold">Tipo di attacco:</span> {renderModel[0].attacco}
+					</p>
+				)}
+				{renderModel[0].vento && (
+					<p>
+						<span className="bold">Sistema di tenuta al vento:</span> {renderModel[0].vento}
+					</p>
+				)}
+				{renderModel[0].tipologia && (
+					<p>
+						<span className="bold">Tipologia:</span> {renderModel[0].tipologia}
+					</p>
+				)}
+				{renderModel[0].note && (
+					<p>
+						<span className="bold">Note:</span> {renderModel[0].note}
+					</p>
+				)}
 			</div>
 		</div>
 	)

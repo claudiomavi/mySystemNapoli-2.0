@@ -352,6 +352,85 @@ export const categoriesData = [
 						opzione:
 							'paletto centrale prolungato (per le versioni a doppio cassonetto), maniglietta incassata',
 					},
+					{
+						name: 'linda plus',
+						image: 'https://imgur.com/QYbxfl7.jpg',
+						description:
+							'Zanzariera modulare a scorrimento laterale con guida inferiore bassa e senza bottoncini',
+						varianti: ['LINDAPLUS', 'LINDAPLUS ANGOLARE', 'LINDAPLUS UP', 'LINDAPLUS IN KIT'],
+						scorrimento:
+							'laterale, si arresta manualmente in qualsiasi punto, configurabile con una o più ante',
+						avvolgimento: 'a molla',
+						apertura: 'a magnete',
+						adatta: 'portafinestra',
+						attacco: 'a baionetta',
+						rete: 'in fibra di vetro di serie o a strisce',
+						fornita: 'su misura, in kit (per info, contattare l’azienda)',
+						note: 'componentistica totalmente rinnovata in alcuni dei suoi principali elementi, con l’introduzione di un sistema brevettato che garantisce una miglioramento generale\nnell’utilizzo del prodotto e massima efficacia di funzionamento. Attacco a baionetta per la parte fissa. Guida bassa dallo spessore di soli 4 mm. La\nrete è facilmente ricollocabile in caso di fuoriuscita. È possibile applicare più ante, fino ad una larghezza massima complessiva di 6 metri.',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero. Il colore dei cingoli della catena varia in base al colore della rete: saranno forniti neri con rete nera e grigi in caso di rete grigia.\nIn abbinamento alle tinte bianco, avorio o grigio lo spazzolino sarà fornito di colore grigio. Per le restanti tinte e se non specificato, lo spazzolino sarà fornito di colore nero.',
+						bottoncino: 'no',
+						opzione: 'maniglietta pieghevole (quando è chiusa ha una sporgenza di 11 mm circa)',
+					},
+					{
+						name: 'soffy',
+						image: 'https://imgur.com/CkXAQTl.jpg',
+						description:
+							'Zanzariera a scorrimento laterale con rete plissettata e guida inferiore bassa',
+						varianti: ['SOFFY', 'SOFFY ANGOLARE'],
+						scorrimento:
+							'laterale, si arresta manualmente in qualsiasi punto, configurabile con una o più ante reversibili (fino a 4), che consentono l’inversione del senso di scorrimento in base alle esigenze',
+						avvolgimento: 'rete plissettata',
+						apertura: 'a magnete',
+						adatta: 'portafinestra',
+						rete: 'in fibra poliestere nera di serie, disponibile anche con telo grigio',
+						fornita: 'su misura',
+						note: 'la guida a pavimento ha uno spessore ridotto, per consentire un attraversamento in completa sicurezza anche per i bambini ed i portatori di handicap',
+					},
+					{
+						name: 'minima',
+						image: 'https://imgur.com/dKSozc8.jpg',
+						description:
+							'Zanzariera a scorrimento laterale con rete plissettata e guida inferiore bassa',
+						varianti: ['MINIMA', 'MINIMA DOPPIA', 'MINIMA REVERSIBILE'],
+						scorrimento:
+							' laterale, si arresta manualmente in qualsiasi punto, è disponibile con una, due ante o reversibile, che consente l’inversione del senso di scorrimento in base alle esigenze',
+						avvolgimento: 'rete plissettata',
+						apertura: 'con barra-maniglia ad aggancio laterale magnetico',
+						adatta: 'portafinestra',
+						rete: 'in polipropilene nera, disponibile anche con telo grigio o colorata',
+						fornita: 'su misura ed in kit',
+						note: 'profondità di 22 mm. Barra maniglia inserita a pressione nella guida inferiore, per una estrema stabilità durante l’azionamento e la massima fluidità nello scorrimento.\n\nLa guida inferiore è alta solo 7 mm ed è provvista di asole per il drenaggio dell’acqua, che ne evitano il fastidioso deposito.\n\nL’installazione è veloce, con il minimo sforzo e pochissimi fori: il profilo laterale aderisce alla parete agganciandosi alla guida inferiore tramite un attacco a baionetta.',
+					},
+					{
+						name: 'minima up',
+						image: 'https://imgur.com/iT8lh8L.jpg',
+						description:
+							'Zanzariera a scorrimento laterale con profilo per applicazione frontale, rete plissettata e guida inferiore bassa.',
+						varianti: ['MINIMA UP', 'MINIMA UP DOPPIA', 'MINIMA UP REVERSIBILE'],
+						scorrimento:
+							'laterale, si arresta manualmente in qualsiasi punto, è disponibile con una, due ante o reversibile, che consente l’inversione del senso di scorrimento in base alle esigenze',
+						avvolgimento: 'rete plissettata',
+						apertura: 'con barra-maniglia ad aggancio laterale magnetico',
+						adatta: 'portafinestra',
+						rete: 'in polipropilene nera, disponibile anche con telo grigio o colorato',
+						fornita: 'su misura',
+						note: 'profondità di 22 mm. Barra maniglia inserita a pressione nella guida inferiore, per una estrema stabilità durante l’azionamento e la massima fluidità nello scorrimento.\nLa guida inferiore è alta solo 7 mm ed è provvista di asole per il drenaggio dell’acqua, che ne evitano il fastidioso deposito.\nL’installazione è veloce e con il minimo sforzo: la zanzariera viene fornita con un telaio predisposto per l’attacco frontale.',
+					},
+					{
+						name: 'minima 18',
+						image: 'https://imgur.com/Mos80ev.jpg',
+						description:
+							'Zanzariera a scorrimento laterale con rete plissettata e guida inferiore bassa',
+						varianti: ['MINIMA 18', 'MINIMA 18 DOPPIA', 'MINIMA 18 REVERSIBILE'],
+						scorrimento:
+							'laterale, si arresta manualmente in qualsiasi punto, è disponibile con una, due ante o reversibile, che consente l’inversione del senso di scorrimento in base alle esigenze.',
+						avvolgimento: 'rete plissettata',
+						apertura: 'con barra-maniglia ad aggancio laterale magnetico.',
+						adatta: 'portafinestra',
+						rete: 'in polipropilene nera, grigia e colorata (fino ad esaurimento scorte) disponibile anche con telo grigio o colorato.',
+						fornita: 'su misura ed in kit.',
+						note: 'profondità di 18 mm. Barra maniglia inserita nella guida inferiore, con stabilità durante l’azionamento e massima fluidità nello scorrimento. La guida inferiore è alta solo 7 mm ed è provvista di asole per il drenaggio dell’acqua, che ne evitano il fastidioso deposito. L’installazione è veloce, con il minimo sforzo e pochissimi fori: il profilo laterale aderisce alla parete agganciandosi alla guida inferiore ed alla guida superiore tramite un attacco a baionetta.',
+					},
 				],
 			},
 			{

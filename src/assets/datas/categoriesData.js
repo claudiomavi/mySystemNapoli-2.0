@@ -434,7 +434,7 @@ export const categoriesData = [
 				],
 			},
 			{
-				name: 'ante/pannello',
+				name: 'ante-pannello',
 				image: 'https://imgur.com/KhqZUk2.jpg',
 				models: [
 					{

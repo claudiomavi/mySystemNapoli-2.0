@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import logo from '/src/assets/media/logo.png'
+// import logo from '/src/assets/media/logo.png'
 
 export default function Header() {
 	return (
@@ -8,8 +8,8 @@ export default function Header() {
 				<img
 					className="logo"
 					alt="logo of alpha pilates"
-					// src="https://imgur.com/cyiqM8q.png"
-					src={logo}
+					src="https://imgur.com/cyiqM8q.png"
+					// src={logo}
 				/>
 			</Link>
 			<ul>

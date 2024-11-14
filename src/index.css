@@ -4,8 +4,8 @@
 
 :root {
 	--text: #000;
-	--accent: green;
-	--active: blue;
+	--accent: #104177;
+	--active: #3ec1d5;
 	--principal: white;
 	--background: #ccc;
 	--secondary: green;
@@ -37,6 +37,7 @@ ul {
 	color: var(--principal);
 	padding: 0.5rem 1rem;
 	border-radius: 1rem;
+	transition: 0.3s all;
 }
 
 .cta:hover {
@@ -58,6 +59,10 @@ nav {
 nav ul {
 	display: flex;
 	gap: 1em;
+}
+
+nav li a {
+	transition: 0.3s all;
 }
 
 nav li a:hover {
@@ -86,6 +91,7 @@ footer {
 
 footer h3 {
 	font-weight: normal;
+	color: var(--accent);
 }
 
 footer ul {
@@ -95,10 +101,12 @@ footer ul {
 
 footer i {
 	font-size: 1.3rem;
+	color: var(--accent);
+	transition: 0.3s all;
 }
 
 footer i:hover {
-	color: var(--accent);
+	color: var(--active);
 }
 
 /* FORM COMPONENT */
@@ -191,6 +199,10 @@ form button {
 	text-transform: uppercase;
 }
 
+.categories p {
+	color: var(--accent);
+}
+
 .categories img {
 	width: 100%;
 }
@@ -209,11 +221,6 @@ form button {
 	margin: 5em 1em;
 	padding: 2em 1em;
 	text-align: center;
-}
-
-.programas-wrap h2 {
-	font-size: 1.5rem;
-	text-transform: uppercase;
 }
 
 .type {
@@ -235,33 +242,12 @@ form button {
 	width: 100%;
 }
 
-.type a {
-	text-transform: uppercase;
-}
-
-.type:hover {
-	font-weight: bold;
-}
-
 /* TYPES PAGE */
-
-.programas-wrap {
-	margin-top: 5em;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 2em;
-	background-color: var(--principal);
-	color: var(--text);
-	margin: 5em 1em;
-	padding: 2em 1em;
-	text-align: center;
-}
 
 .programas-wrap h2 {
 	font-size: 1.5rem;
 	text-transform: uppercase;
+	color: var(--active);
 }
 
 .type {
@@ -280,6 +266,8 @@ form button {
 
 .type a {
 	text-transform: uppercase;
+	color: var(--accent);
+	transition: 0.3s all;
 }
 
 .type a:hover {
@@ -292,6 +280,10 @@ form button {
 	width: 100%;
 	text-transform: uppercase;
 	text-align: right;
+}
+
+.model .varianti h3 {
+	color: var(--accent);
 }
 .model img {
 	max-height: 250px;
@@ -308,6 +300,7 @@ form button {
 
 .model .caratteristiche .bold {
 	font-weight: bold;
+	color: var(--accent);
 }
 
 /* ABOUT PAGE */
@@ -324,6 +317,10 @@ form button {
 	text-align: center;
 }
 
+.about h1 {
+	color: var(--active);
+}
+
 .about p {
 	line-height: 1.5rem;
 	letter-spacing: 0.2px;
@@ -331,5 +328,5 @@ form button {
 }
 
 .about strong {
-	color: var(--active);
+	color: var(--accent);
 }

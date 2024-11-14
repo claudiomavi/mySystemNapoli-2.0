@@ -3,12 +3,12 @@
 /* GENERAL CLASSES */
 
 :root {
-	--text: #000;
-	--accent: #104177;
-	--active: #3ec1d5;
-	--principal: white;
-	--background: #ccc;
-	--secondary: green;
+	--text: #0b0b0c;
+	--background: #f9fafc;
+	--primary: #104175;
+	--secondary: #88b9ee;
+	--accent: #3d99fc;
+	--shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -33,8 +33,8 @@ ul {
 }
 
 .cta {
-	background-color: var(--active);
-	color: var(--principal);
+	background-color: var(--secondary);
+	color: var(--primary);
 	padding: 0.5rem 1rem;
 	border-radius: 1rem;
 	transition: 0.3s all;
@@ -53,7 +53,8 @@ nav {
 	align-items: center;
 	justify-content: space-between;
 	padding: 1em;
-	background-color: var(--principal);
+	background-color: var(--background);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -66,7 +67,7 @@ nav li a {
 }
 
 nav li a:hover {
-	color: var(--accent);
+	color: var(--primary);
 }
 
 nav .logo {
@@ -75,23 +76,24 @@ nav .logo {
 }
 
 .is-active {
-	color: var(--active);
-	border-bottom: 1px solid var(--active);
+	color: var(--accent);
+	border-bottom: 1px solid var(--accent);
 }
 
 /* FOOTER COMPONENT */
 
 footer {
-	background-color: var(--principal);
+	background-color: var(--background);
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 1em;
+	box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1);
 }
 
 footer h3 {
 	font-weight: normal;
-	color: var(--accent);
+	color: var(--primary);
 }
 
 footer ul {
@@ -101,12 +103,12 @@ footer ul {
 
 footer i {
 	font-size: 1.3rem;
-	color: var(--accent);
+	color: var(--primary);
 	transition: 0.3s all;
 }
 
 footer i:hover {
-	color: var(--active);
+	color: var(--secondary);
 }
 
 /* FORM COMPONENT */
@@ -120,7 +122,7 @@ form {
 
 form h3 {
 	margin-bottom: 1em;
-	color: var(--text);
+	color: var(--primary);
 	font-size: 1.5rem;
 }
 
@@ -129,6 +131,12 @@ form input {
 	border: none;
 	border-radius: 1rem;
 	font-size: 1rem;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+	color: var(--text);
+}
+
+form input::placeholder {
+	color: var(--secondary);
 }
 
 input::-webkit-outer-spin-button,
@@ -143,8 +151,8 @@ form button {
 	margin-top: 1em;
 	padding: 0.5rem 1rem;
 	display: inline;
-	background: var(--active);
-	color: var(--principal);
+	background: var(--secondary);
+	color: var(--primary);
 	border: none;
 	border-radius: 1rem;
 	font-size: 1.2rem;
@@ -164,7 +172,7 @@ form button {
 	align-items: center;
 	justify-content: center;
 	row-gap: 1em;
-	background-color: var(--principal);
+	background-color: var(--background);
 	color: var(--text);
 	margin: 0 1em;
 	padding: 1em;
@@ -175,6 +183,11 @@ form button {
 	font-size: 1.5rem;
 	letter-spacing: 0.2rem;
 	margin-bottom: 2rem;
+	color: var(--primary);
+}
+
+.main-wrap p {
+	color: var(--secondary);
 }
 
 .cta-buttons {
@@ -184,19 +197,27 @@ form button {
 
 .outline {
 	background-color: unset;
-	border: 2px solid var(--active);
-	color: var(--text);
+	border: 2px solid var(--secondary);
 }
 
 /* CATEGORIES PAGE */
 
-.categories {
-	background-color: var(--principal);
-	color: var(--text);
+.categories-div {
 	margin: 2em 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2em;
+}
+
+.categories {
+	background-color: var(--background);
+	max-width: 600px;
+	color: var(--text);
 	padding: 1em;
 	text-align: center;
 	text-transform: uppercase;
+	box-shadow: var(--shadow);
 }
 
 .categories p {
@@ -210,13 +231,10 @@ form button {
 /* MODELS PAGE */
 
 .programas-wrap {
-	margin-top: 5em;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
 	gap: 2em;
-	background-color: var(--principal);
+	background-color: var(--background);
 	color: var(--text);
 	margin: 5em 1em;
 	padding: 2em 1em;
@@ -225,11 +243,10 @@ form button {
 
 .type {
 	display: flex;
+	max-width: 400px;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 2em;
 	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
 	margin-bottom: 2em;
 }
 
@@ -237,26 +254,12 @@ form button {
 	margin-bottom: 0;
 }
 
-.type img {
-	max-height: 250px;
-	width: 100%;
-}
-
 /* TYPES PAGE */
 
 .programas-wrap h2 {
 	font-size: 1.5rem;
 	text-transform: uppercase;
-	color: var(--active);
-}
-
-.type {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 2em;
-	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+	color: var(--primary);
 }
 
 .type img {
@@ -268,6 +271,7 @@ form button {
 	text-transform: uppercase;
 	color: var(--accent);
 	transition: 0.3s all;
+	box-shadow: var(--shadow);
 }
 
 .type a:hover {
@@ -285,9 +289,13 @@ form button {
 .model .varianti h3 {
 	color: var(--accent);
 }
+
 .model img {
 	max-height: 250px;
+	max-width: 400px;
+	margin: 0 auto;
 	width: 100%;
+	box-shadow: var(--shadow);
 }
 
 .model .caratteristiche {
@@ -310,7 +318,7 @@ form button {
 	align-items: center;
 	justify-content: center;
 	gap: 2em;
-	background-color: var(--principal);
+	background-color: var(--background);
 	color: var(--text);
 	margin: 5em 1em;
 	padding: 2em 1em;
@@ -318,7 +326,7 @@ form button {
 }
 
 .about h1 {
-	color: var(--active);
+	color: var(--secondary);
 }
 
 .about p {

@@ -12,6 +12,10 @@ export default function About() {
 				</strong>
 				, sicurezza certificata dalla marcatura CE.
 			</p>
+			<img
+				src="https://imgur.com/6gQbiKx.jpg"
+				alt="immagine della facciata di My System"
+			/>
 			<p>
 				Idee differenti, uniche, perfino rivoluzionarie, apprezzate per la loro capacità di portare
 				un cambiamento e creare valore aggiunto. <strong>Innovazione e qualità</strong> sono stati e

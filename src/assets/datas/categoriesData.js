@@ -507,22 +507,176 @@ export const categoriesData = [
 				],
 			},
 			{
-				name: 'motorizzate',
+				name: 'grandi dimensioni',
 				image: 'https://imgur.com/YKsVepu.jpg',
 				models: [
 					{
+						name: 'IRENE 65 SQUARE',
+						image: 'https://imgur.com/DxDwkPK.jpg',
+						description:
+							'Zanzariera a scorrimento verticale e rete avvolgibile, con azionamento a catena, a motore o motore radiocomandato',
+						varianti: [
+							'IRENE 65 SQUARE CATENA',
+							'IRENE 65 SQUARE MOTORIZZATA',
+							'IRENE 65 SQUARE ATTACCO FRONTALE',
+						],
+						apertura:
+							'a catena (comando interno, esterno\noppure doppio comando) dotata di molla che agevola la risalita della zanzariera, o motorizzata',
+						cassonetto: 'squadrato da 65 mm',
+						adatta: 'finestra e portafinestra',
+						rete: 'rete nera STRONG di serie. Al posto della rete si può richiedere l’inserimento di teli oscuranti e filtranti per uso interno ed esterno',
+						fornita: 'su misura',
+						note: 'la versione motorizzata è disponibile anche in versione con radiocomando, che permette di controllare anche più zanzariere motorizzate con un solo telecomando',
+						line: ' accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero. In abbinamento alle tinte bianco, avorio o grigio lo spazzolino sarà fornito di colore grigio. Per le restanti tinte e se non specificato, lo spazzolino sarà fornito di colore nero.',
+					},
+					{
 						name: 'evo zip',
-						image: 'https://imgur.com/YKsVepu.jpg',
+						image: 'https://imgur.com/jVG5XX8.jpg',
 						description:
 							'Sistema a scorrimento verticale, con telo avvolgibile ed azionamento a motore, dotata di cerniere saldate ai bordi',
-						varianti: ['EVO ZIP 100', 'EVO ZIP 125'],
-						scorrimento: 'verticale',
-						avvolgimento: 'motore',
+						varianti: ['EVO ZIP 100', 'EVO ZIP 125', 'GUIDE PLUS'],
 						apertura: 'motorizzata, controllabile anche con radiocomando',
 						cassonetto:
-							'squadrato autoportante da 100/125 mm, ispezionabile senza bisogno di smontare la meccanica',
+							'squadrato autoportante da 100/125 mm, ispezionabile senza bisogno di smontare la meccanica.',
 						adatta:
 							'finestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti e filtranti adatti anche per l’esterno.\n\nNella versione zanzariera viene fornita con rete nera STRONG di serie oppure TuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						note: 'al suo interno, EVO ZIP è dotata di una meccanica di funzionamento completamente rinnovata: la scorrevolezza è facilitata dall’introduzione di un sistema telescopico di avvolgimento con cuscinetti. Il telo resta sempre ben tensionato anche in larghezze significative, attraverso una lavorazione dedicata.',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero.',
+					},
+					{
+						name: 'evo zip duo',
+						image: 'https://imgur.com/JVPRCNI.jpg',
+						description:
+							'Sistema a scorrimento verticale, con telo avvolgibile ed azionamento a motore, dotata di cerniere saldate ai bordi',
+						varianti: [],
+						apertura: 'motorizzata, controllabile anche con radiocomando',
+						cassonetto:
+							'squadrato autoportante da 130X280 mm, ispezionabile senza bisogno di smontare la meccanica.',
+						adatta:
+							'finestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti e filtranti adatti anche per l’esterno.\n\nNella versione zanzariera viene fornita con rete in fibra di vetro grigia di serie oppure TuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						note: 'al suo interno, EVO ZIP DUO è dotata di una meccanica di funzionamento completamente rinnovata: la scorrevolezza è facilitata dall’introduzione di un sistema telescopico di avvolgimento con cuscinetti. Il telo resta sempre ben tensionato anche in larghezze significative, attraverso una lavorazione dedicata.',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero.',
+					},
+					{
+						name: 'NEW SECUR ZIP',
+						image: 'https://imgur.com/113Xwg5.jpg',
+						description:
+							'Zanzariera a scorrimento verticale, con rete avvolgibile ed azionamento ad argano, a motore o motore radiocomandato, dotata di bordi con cerniera sulla rete\n',
+						varianti: [
+							'NEW SECURZIP 85 ARGANO/MOTORE',
+							'NEW SECURZIP 100 ARGANO/MOTORE',
+							'NEW SECURZIP 125 ARGANO/MOTORE',
+						],
+						apertura: 'ad argano o motorizzata, controllabile anche con radiocomando',
+						cassonetto: 'squadrato da 85, 100 o 125 mm, ispezionabile senza bisogno di rimuoverlo',
+						adatta:
+							'inestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate.',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti e filtranti adatti anche per l’esterno.\n\nNella versione zanzariera viene fornita con rete nera STRONG di serie oppure TuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						opzione:
+							'possibilità di fissaggio a parete o autoportante, grazie a un adattatore in acciaio.\nL’asta di azionamento nel modello ad argano ha un’altezza max di 180 cm.',
+					},
+				],
+			},
+		],
+	},
+	{
+		title: 'zanzariere a incasso',
+		image: 'https://imgur.com/xRCy3Vf.jpg',
+		subcategories: [
+			{
+				name: 'verticali a incasso',
+				image: 'https://imgur.com/ELDHUYO.jpg',
+				models: [
+					{
+						name: 'CASPER VERTICALE',
+						image: 'https://imgur.com/kzMUb5X.jpg',
+						description:
+							'Zanzariera a scorrimento verticale e rete avvolgibile per installazione ad incasso',
+						varianti: [
+							'NEW CASPER TOP 50',
+							'NEW CASPER 50',
+							'CASPER ADVANCE',
+							'NEW CASPER PLUS 50 CATENA',
+							'NEW CASPER 50 CATENA',
+							'CASPER 45',
+							'CASPER 2 VERTICALE',
+							'CASPER 3 VERTICALE',
+						],
+						scorrimento: 'verticale',
+						avvolgimento: 'a molla, a catena',
+						apertura:
+							'modello New Casper Top con sistema PushUp (a pressione verso il basso)\naltri modelli a scatto, con cricchetto o a catena (solo per ­Casper 50)',
+						cassonetto: 'squadrato da 45 o 50 mm',
+						adatta: 'finestra',
+						bottoncino: 'si',
+						rete: 'in fibra di vetro di serie, viene fornita saldata e rivettata ai ­bordi. Al posto della rete si può richiedere l’inserimento di teli ­oscuranti, filtranti e a strisce.\n\nI teli oscuranti e filtranti sono per uso interno e vengono forniti senza bottoncini, da richiedere in fase d’ordine come opzione',
+						fornita: 'su misura',
+						note: 'disponibile anche con guide 40×18 (Casper 2) e 35×50 ­(Casper 3), con predisposizione per listello in legno',
+						line: 'accessori in vista a colore per il modello New Casper Top. Disponibili nelle tinte bianco, avorio, grigio e nero.\nIn abbinamento alle tinte bianco, avorio o grigio lo spazzolino sarà fornito di colore grigio. Per le restanti tinte e se non specificato, lo spazzolino sarà fornito di colore nero.',
+					},
+					{
+						name: 'comoda verticale',
+						image: 'https://imgur.com/kzMUb5X.jpg',
+						description:
+							'Zanzariera a scorrimento verticale ed a rete avvolgibile senza bottoncini per installazione ad incasso',
+						varianti: ['COMODA 50 VERTICALE', 'COMODA SMART', 'COMODA IN BARRE'],
+						scorrimento: 'verticale',
+						avvolgimento: 'a molla',
+						apertura: 'a molla o PushUp per la versione SMART',
+						cassonetto: 'squadrato da 50 mm',
+						adatta: 'finestra',
+						bottoncino: 'no',
+						rete: 'in fibra di vetro. Al posto della rete si può richiedere l’inserimento di teli oscuranti, filtranti e a strisce.\n\nI teli oscuranti e filtranti sono per uso interno.',
+						fornita: 'su misura',
+					},
+					{
+						name: 'WIND INCAS VERTICALE',
+						image: 'https://imgur.com/kzMUb5X.jpg',
+						description:
+							'Zanzariera per l’installazione ad incasso a scorrimento verticale, con rete avvolgibile senza bottoncini',
+						varianti: ['WIND INCAS 42 VERTICALE', 'WIND INCAS 42 SMART'],
+						scorrimento: 'verticale',
+						apertura: 'a molla',
+						cassonetto: 'squadrato da 42 mm',
+						adatta: 'finestra',
+						bottoncino: 'no',
+						rete: 'in fibra di vetro di serie. Al posto della rete si può richiedere l’inserimento di teli oscuranti, filtranti. I teli oscuranti e filtranti sono per uso interno',
+						fornita: 'su misura',
+						note: 'vengono fornite delle clips metalliche – da fissare alle pareti del vano – che consentono un veloce aggancio delle guide',
+					},
+				],
+			},
+			{
+				name: 'laterali a incasso',
+				image: 'https://imgur.com/cYU23ns.jpg',
+				models: [
+					{
+						name: 'bora top incas',
+						image: 'https://imgur.com/0eisTLD.jpg',
+						description: 'Protezione e benessere in casa, meglio di come immagini',
+						varianti: [
+							'BORA TOP INCAS 20/20',
+							'BORA TOP INCAS 35/35',
+							'BORA TOP INCAS 50/20',
+							'BORA TOP INCAS 50/35',
+							'BORA TOP INCAS 50/50',
+						],
+						scorrimento:
+							'laterale, si arresta manualmente e rilasciandola non si riavvolge completamente. Configurabile con una o più ante (fino a quattro)',
+						avvolgimento: 'a molla',
+						apertura: 'a magnete',
+						adatta: 'portafinestra',
+						bottoncino: 'no',
+						rete: 'rete nera STRONG di serie. Può essere richiesta anche con rete Sunox e rete in fibra di vetro (opzionale).',
+						fornita: 'su misura',
+						note: 'adatta per porte-finestre fino a 220 cm di larghezza, guida bassa dallo spessore di soli 2 mm. Elevata tenuta della rete al vento forte, grazie ad un sistema brevettato che ne riduce i problemi di fuoriuscita del telo.',
+						line: 'accessori in vista a colore.\n\nDisponibili nei colori bianco, avorio, grigio e nero. Il colore dei cingoli della catena varia in base al colore della rete: saranno forniti neri con rete nera e grigi in caso di rete grigia. In abbinamento alle tinte bianco, avorio o grigio lo spazzolino sarà fornito di colore grigio. Per le restanti tinte e se non specificato, lo spazzolino sarà fornito di colore nero.',
+						attacco: 'a baionetta',
 					},
 				],
 			},

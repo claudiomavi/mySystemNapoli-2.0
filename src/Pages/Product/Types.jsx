@@ -13,19 +13,21 @@ export default function Types() {
 			key={renderCategory[0].title}
 			className="programas-wrap">
 			<h2>{renderCategory[0].title}</h2>
-			{renderCategory[0].subcategories.map((product) => (
-				<div
-					className="type"
-					key={product.name}>
-					<Link to={`/modelli/${renderCategory[0].title}/${product.name}`}>
-						<img
-							src={product.image}
-							alt={product.name}
-						/>
-						{product.name}
-					</Link>
-				</div>
-			))}
+			<ul className="types">
+				{renderCategory[0].subcategories.map((product) => (
+					<div
+						className="type"
+						key={product.name}>
+						<Link to={`/modelli/${renderCategory[0].title}/${product.name}`}>
+							<img
+								src={product.image}
+								alt={product.name}
+							/>
+							{product.name}
+						</Link>
+					</div>
+				))}
+			</ul>
 		</div>
 	)
 }

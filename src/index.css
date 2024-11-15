@@ -264,14 +264,18 @@ form button {
 
 .type img {
 	max-height: 250px;
-	width: 100%;
+	max-width: 100%;
 }
 
 .type a {
+	display: flex;
 	text-transform: uppercase;
 	color: var(--accent);
 	transition: 0.3s all;
 	box-shadow: var(--shadow);
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
 .type a:hover {
@@ -291,11 +295,11 @@ form button {
 }
 
 .model img {
-	max-height: 250px;
-	max-width: 400px;
+	max-width: 300px;
 	margin: 0 auto;
 	width: 100%;
 	box-shadow: var(--shadow);
+	aspect-ratio: 1;
 }
 
 .model .caratteristiche {
@@ -327,6 +331,10 @@ form button {
 
 .about h1 {
 	color: var(--secondary);
+}
+
+.about img {
+	width: 100%;
 }
 
 .about p {

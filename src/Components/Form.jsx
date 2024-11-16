@@ -10,27 +10,48 @@ export default function Form() {
 				value="contatti"
 			/>
 			<h3>Contattaci:</h3>
-			<input
-				type="text"
-				name="azienda"
-				id="azienda"
-				placeholder="Nome dell'azienda"
-				required
-			/>
-			<input
-				type="email"
-				name="email"
-				id="email"
-				placeholder="Email"
-				required
-			/>
-			<input
-				type="number"
-				name="telefono"
-				id="telefono"
-				placeholder="Telefono"
-				required
-			/>
+			<div className="form__group field">
+				<input
+					type="text"
+					name="azienda"
+					className="form__field"
+					placeholder="Nome dell'azienda"
+					required=""
+				/>
+				<label
+					htmlFor="name"
+					className="form__label">
+					Nome dell&apos;azienda
+				</label>
+			</div>
+			<div className="form__group field">
+				<input
+					type="email"
+					name="email"
+					className="form__field"
+					placeholder="Email"
+					required=""
+				/>
+				<label
+					htmlFor="email"
+					className="form__label">
+					Email
+				</label>
+			</div>
+			<div className="form__group field">
+				<input
+					type="number"
+					name="telefono"
+					className="form__field"
+					placeholder="Telefono"
+					required=""
+				/>
+				<label
+					htmlFor="telefono"
+					className="form__label">
+					Telefono
+				</label>
+			</div>
 			<button>
 				<div className="svg-wrapper-1">
 					<div className="svg-wrapper">

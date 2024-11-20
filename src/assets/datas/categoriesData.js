@@ -705,7 +705,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'irene incas laterale',
-						image: 'https://imgur.com/cYU23ns.jpg',
+						image: 'https://imgur.com/0eisTLD.jpg',
 						description:
 							'Zanzariera per l’installazione ad incasso a scorrimento laterale, con rete avvolgibile',
 						varianti: ['IRENE INCAS 50 LATERALE', 'IRENE INCAS 50 DOPPIA'],
@@ -722,7 +722,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'casper laterale',
-						image: 'https://imgur.com/cYU23ns.jpg',
+						image: 'https://imgur.com/0eisTLD.jpg',
 						description:
 							'Zanzariera a scorrimento laterale con rete avvolgibile per installazione ad incasso',
 						varianti: [
@@ -747,7 +747,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'clara incas',
-						image: 'https://imgur.com/cYU23ns.jpg',
+						image: 'https://imgur.com/0eisTLD.jpg',
 						description:
 							'Zanzariera a rete avvolgibile per l’installazione ad incasso, con scorrimento laterale',
 						varianti: [
@@ -771,7 +771,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'comoda laterale',
-						image: 'https://imgur.com/cYU23ns.jpg',
+						image: 'https://imgur.com/0eisTLD.jpg',
 						description:
 							'Zanzariera a scorrimento laterale ed a rete avvolgibile senza bottoncini,\nper installazione ad incasso',
 						varianti: ['COMODA 50 LATERALE', 'COMODA DOPPIA', 'COMODA IN BARRE'],
@@ -787,7 +787,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'wind incas laterale',
-						image: 'https://imgur.com/cYU23ns.jpg',
+						image: 'https://imgur.com/0eisTLD.jpg',
 						description:
 							'Zanzariera a scorrimento laterale ed a rete avvolgibile senza bottoncini, per installazione ad incasso',
 						varianti: ['WIND INCAS 42 LATERALE', 'WIND INCAS 42 LATERALE DOPPIA'],

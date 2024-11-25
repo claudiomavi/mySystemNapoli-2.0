@@ -888,6 +888,46 @@ export const categoriesData = [
 					},
 				],
 			},
+			{
+				name: 'grandi dimensioni a incasso',
+				image: 'https://imgur.com/xOryaqI.jpg',
+				models: [
+					{
+						name: 'irene 65 square incas',
+						image: 'https://imgur.com/HexV6Tt.jpg',
+						description:
+							'Zanzariera avvolgente da incasso per grandi dimensioni con azionamento a motore',
+						varianti: ['IRENE 65 SQUARE INCAS'],
+						apertura: 'motorizzato, controllabile anche con radiocomand',
+						adatta: 'finestra e portafinestra',
+						rete: 'rete nera STRONG di serie, si può richiedere l’inserimento di teli oscuranti e filtranti',
+						fornita: 'su misura',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero. In abbinamento alle tinte bianco, avorio o grigio lo spazzolino sarà fornito di colore grigio. Per le restanti tinte e se non specificato, lo spazzolino sarà fornito di colore nero.',
+						cassonetto: 'squadrato da 65 mm',
+					},
+					{
+						name: 'evo zip incas',
+						image: 'https://imgur.com/HexV6Tt.jpg',
+						description:
+							'Sistema a scorrimento verticale per l’installazione ad incasso, con rete avvolgibile ed azionamento a motore, dotata di cerniere saldate ai bordi',
+						varianti: [
+							'EVO ZIP 100 INCAS',
+							'EVO ZIP 125 INCAS',
+							'EVO ZIP 100 INCAS CON GUIDE PLUS',
+							'EVO ZIP 125 INCAS CON GUIDE PLUS',
+							'CONFIGURAZIONI COMBO',
+						],
+						apertura: 'motorizzata, controllabile anche con radiocomando',
+						adatta:
+							'finestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti e filtranti adatti anche per l’esterno. Nella versione zanzariera viene fornita con rete nera STRONG di serie oppure\n\nTuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero.',
+						cassonetto: 'squadrato da 100 e 125 mm',
+						note: 'al suo interno, EVO ZIP è dotata di una meccanica di funzionamento completamente rinnovata: la scorrevolezza è facilitata dall’introduzione di un sistema telescopico di avvolgimento con cuscinetti, mentre un sistema permette al telo una tensione ottimale, anche in larghezze significative.',
+					},
+				],
+			},
 		],
 	},
 	{

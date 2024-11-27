@@ -980,6 +980,99 @@ export const categoriesData = [
 						varianti: ['MV34C', 'MV34CS', 'MV46C', 'MV53C'],
 						note: 'Tubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e con ogiva per facilitare la manutenzione del telo.\nDiametro 34/46/53 mm, a seconda della larghezza della tenda.\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6060, verniciato a polvere in RAL bianco\n9010/verniciato argento/nero opaco RAL 9005.\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco nero e grigio.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a\npolvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nSupporti a scatto PUSH per facilitare il montaggio a soffitto/parete fino a 150 cm (standard per il\nmodello MV34C e a richiesta per i modelli MV34CS, MV46C e MV53C).\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV34CS, MV46C e MV53C).\n\nKit opzionale per fissaggio a pavimento con cavetti in acciaio inox per versioni guidate.\nMeccanismi di comando frizionati, tutti dotati di molla di compensazione in acciaio armonico, inserita\nal lato opposto del comando, la cui funzione permette di diminuire lo sforzo durante la salita della\ntenda e di rendere la movimentazione fluida senza strappi.\nUn innovativo meccanismo permette di regolare la carica della molla evitando di smontare la tenda (in\nfunzione delle dimensioni e del peso del tessuto, sono impiegati 12 modelli di molle).\nBlocco preciso della tenda in qualsiasi posizione.\nCatenella di comando da mm 4.5×6 in plastica bianca, grigia o nera (opzionale in ottone cromato),\nposizionabile a destra o a sinistra.\nTendicatena trasparente (conforme alla Direttiva 16433/16434)',
 					},
+					{
+						name: 'elite argano',
+						image: 'https://imgur.com/phADdYz.jpg',
+						description: 'Tenda a rullo comando ad argano',
+						varianti: ['MV46A', 'MV53A', 'MV85A'],
+						note: 'Tubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e con ogiva per facilitare la manutenzione del telo.\nDiametro tubo 46/53 mm, a seconda della larghezza della tenda, tubo 78 mm in ferro zincato con ogiva per grandi dimensioni.\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6060 verniciato a polvere in RAL bianco 9010/verniciato argento/nero opaco RAL 9005.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a polvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare\n\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco nero e grigio.\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV46A, MV53A).\nSupporti a scatto PUSH opzionali per facilitare il montaggio a soffitto/parete fino a 150 cm.\nMeccanismo di comando ad argano frizionato, che garantisce movimenti silenziosi e bilanciati.\nAsta di manovra in alluminio lega 6063 verniciata a polvere bianco RAL 9010/verniciato argento/ nero opaco RAL 9005, completa di maniglia snodata.\nBlocco preciso della tenda in qualsiasi posizione.',
+					},
+					{
+						name: 'elite motore',
+						image: 'https://imgur.com/6RmBjdQ.jpg',
+						description: 'Tenda a rullo comando a motore',
+						varianti: ['MV46M', 'MV53M', 'MV85M'],
+						note: 'Tubo avvolgitore in alluminio estruso lega 6063, con speciali raggiature all’interno, per evitare la flessione e dotato di ogiva, per facilitare la manutenzione del telo.\nDiametro tubo 46/53 mm, a seconda della larghezza della tenda, tubo 78 mm in ferro zincato con ogiva per grandi dimensioni.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a polvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\n\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6063 verniciato a polvere in RAL bianco 9010/verniciato argento/nero opaco RAL 9005.\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco, nero e grigio.\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV46M, MV53M).\nSupporti a scatto PUSH opzionali per facilitare il montaggio a soffitto/parete fino a 150 cm.\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile.\nComando radio o pulsante.\nOpzioni: applicazione frontale, motore radio, radio comando.',
+					},
+					{
+						name: 'modulo multi',
+						image: 'https://imgur.com/Pb1UZR8.jpg',
+						description: 'Tenda a rulli multipli – comandi a catena, ad argano o a motore',
+						varianti: ['MODULO MULTI'],
+						note: 'Il MODULO MULTI permette di creare una serie di tende azionate da un unico comando.\n\nTubi avvolgitori in alluminio estruso lega 6063, con speciali raggiature all’interno, per evitare la flessione e dotati di ogiva, per facilitare la manutenzione del telo.\nDiametro tubo da 34/46/53 mm, a seconda della larghezza della tenda.\nKit staffe di fissaggio in acciaio con accessori in plastica di colore bianco, nero e grigio.\nInstallazione a parete/soffitto mediante staffe in acciaio da 55 mm.',
+					},
+				],
+			},
+			{
+				name: 'libere con cassonetto',
+				image: 'https://imgur.com/AK8Dnma.jpg',
+				models: [
+					{
+						name: 'ELITE SQUARE CATENA',
+						image: 'https://imgur.com/AK8Dnma.jpg',
+						description: 'Tenda a rullo con cassonetto C80/C100',
+						varianti: ['MVS80C', 'MVS100C'],
+						note: 'Cassonetti in alluminio estruso lega 6060, verniciati a polvere in bianco RAL 9010/verniciato argento/ nero opaco RAL 9005, composto da una parte fissa e una parte mobile.\nTubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e ogiva, per facilitare la manutenzione del telo.\nTestate di chiusura in plastica nei colori bianco grigio e nero.\nBlocco preciso della tenda in qualsiasi posizione.\nFondale in alluminio estruso lega 6060, a sezione rettangolare di serie: dimensioni 18×24 mm, verniciato a polvere bianco RAL 9010/verniciato argento/nero opaco RAL 9005.\n\nMeccanismi di comando frizionati, tutti dotati di molla di compensazione in acciaio armonico, inserita al lato opposto del comando, la cui funzione permette di diminuire lo sforzo durante la salita della tenda e di rendere la movimentazione fluida senza strappi.\nCatenella di comando da 4.5×6 mm in plastica bianca, grigia o nera (opzionale in ottone cromato), posizionabile a destra o a sinistra.\nSupporto a chiavetta per fissaggio al soffitto.\nSupporto universale per fissaggio a parete o soffitto.\nTendicatena trasparente (conforme alla direttiva EN 16433 – 16434).',
+					},
+					{
+						name: 'elite square motore',
+						image: 'https://imgur.com/xO8WwXZ.jpg',
+						description: 'Tenda a rullo con cassonetto C80/C100',
+						varianti: ['MVS80M', 'MVS100M'],
+						note: 'Cassonetto in alluminio estruso 6060, verniciati a polvere in bianco RAL 9010/verniciato argento/ nero opaco RAL 9005, composto da una parte fissa e una parte mobile.\nTubi avvolgitori estrusi in alluminio lega 6063 diametro 46/53 mm, tutti dotati di ogiva per facilitare la manutenzione del telo, e raggiature all’interno per evitare la flessione.\nTestate di chiusura in plastica nei colori bianco grigio e nero\n\nFondale in alluminio estruso lega 6060, a sezione rettangolare di serie: dimensioni 18×24 mm, verniciato a polvere bianco RAL 9010/verniciato argento/nero opaco RAL 9005.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nComando radio o a pulsante.\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile',
+					},
+				],
+			},
+			{
+				name: 'guidate con cassonetto',
+				image: 'https://imgur.com/VMCjebP.jpg',
+				models: [
+					{
+						name: 'TECNO SQUARE',
+						image: 'https://imgur.com/VMCjebP.jpg',
+						description: 'TENDA A RULLO GUIDATA CON CASSONETTO',
+						varianti: ['MGS80M', 'MGS100M'],
+						note: 'Cassonetto in alluminio estruso 6060, verniciati a polvere in bianco RAL 9010/verniciato argento/nero opaco RAL 9005, composto da una parte fissa e una parte mobile.\nTestate di chiusura in plastica nei colori bianco grigio e nero.\nTubi avvolgitori estrusi in alluminio lega 6063 diametro 46/53 mm, tutti dotati di ogiva per facilitare la manutenzione del telo, e raggiature all’interno per evitare la flessione.\nGuide laterali in alluminio estruso comprese di spazzolino, per ottenere un oscuramento totale con l’installazione di teli oscuranti.\n\nFondale in alluminio estruso lega 6060, verniciato a polvere bianco RAL 9010/verniciato argento/nero opaco RAL 9005.\nCorsoi laterali in materiale plastico nei colori bianco, grigio e nero.\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile.',
+					},
+				],
+			},
+			{
+				name: 'guidate con cavi in acciaio',
+				image: 'https://imgur.com/SLO01UT.jpg',
+				models: [
+					{
+						name: 'OMBRA INOX ARGANO-MOTORE',
+						image: 'https://imgur.com/SLO01UT.jpg',
+						description: 'TENDA A RULLO AD ARGANO O MOTORE CON CAVI INOX',
+						varianti: ['MVX85A', 'MVX85M'],
+						note: 'Rullo avvolgitore in acciaio zincato con ogiva, per facilitare la manutenzione del telo.\nStaffe di fissaggio a soffito/parete in plastica e acciaio inox nei colori standard bianco, nero e argento.\nGuide cavi inox AISI 316 da 4mm di diametro e fissaggio a pavimento con cilindro tendicavo in acciaio inox AISI 316.\n\nA richiesta per fissaggio a serramento o frontale, con staffe in acciaio inox.\nFondale tondo in alluminio estruso, diametro 42 mm con tappi laterali telescopici e occhioli per lo scorrimento nel cavo.\n(Versione con comando ad argano)\nManovra di comando ad argano in zama idoneo per uso esterno, completa di asta in alluminio estruso, compresa di maniglia snodata.\n(Versione con comando a motore)\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile.',
+					},
+				],
+			},
+			{
+				name: 'guidate con cavi in acciaio e cassonetto',
+				image: 'https://imgur.com/IGza2U4.jpg',
+				models: [
+					{
+						name: 'NEW OMBRA BOX INOX ARGANO-MOTORE',
+						image: 'https://imgur.com/IGza2U4.jpg',
+						description: 'TENDA A RULLO GUIDATA E CASSONETTO AD ARGANO O MOTORE',
+						varianti: ['MXC85A', 'MXC100A', 'MXC125A', 'MXC85M', 'MXC100M', 'MXC125M'],
+						note: 'Cassonetto in alluminio estruso, composto da una parte fissa e una parte mobile ispezionabile.\nCoppia di testate in alluminio verniciato nei colori standard bianco, nero e argento verniciato.\nTubo avvolgitore diametro 78 mm in acciaio zincato.\nGuide cavi inox AISI 316 da 4mm di diametro e fissaggio a pavimento con cilindro tendicavo in acciaio inox AISI 316\nFondale tondo a vista in alluminio estruso diametro 42 mm con tappi laterali e occhioli per lo scorrimento nel cavo.\nFissaggio a pavimento con cilindro tendi cavo in acciaio AISI 316.\n\nA richiesta staffe di fissaggio a muro o serramento in acciaio AISI 316.\n(Versione con azionamento ad argano)\nMovimentazione ad argano TS in zama, idoneo per uso esterno rapporto giri 1:9, completa di asta tubolare diametro 13 mm, completa di maniglia snodata.\n(Versione con azionamento a motore)\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile.',
+					},
+				],
+			},
+			{
+				name: 'orizzontali a doppio cassonetto',
+				image: 'https://imgur.com/uNOAZNV.jpg',
+				models: [
+					{
+						name: 'LULUX COMANDO A MOTORE',
+						image: 'https://imgur.com/uNOAZNV.jpg',
+						description: 'TENDA A RULLO ORIZZONTALE CON DOPPIO CASSONETTO COMANDO A MOTORE',
+						varianti: ['MLC100M', 'MLC125M'],
+						note: 'Doppio rullo avvolgitore.\nTestate in alluminio pressofuso nei colori standard bianco, nero e argento verniciato.\nMolla di richiamo in acciaio armonico contenuta nel rullo contrapposto, atta a tenere il telo in trazione in qualsiasi posizione.\nDoppio cassonetto in alluminio estruso, ispezionabile.\n\nGuide laterali in alluminio estruso, con la funzione di contenere il tessuto durante lo scorrimento.\nFondale in alluminio estruso con corsoi a colore.\nMotore (230 V/50 Hz) con finecorsa elettronico regolabile.',
+					},
 				],
 			},
 		],

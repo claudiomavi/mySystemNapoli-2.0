@@ -926,6 +926,60 @@ export const categoriesData = [
 						cassonetto: 'squadrato da 100 e 125 mm',
 						note: 'al suo interno, EVO ZIP è dotata di una meccanica di funzionamento completamente rinnovata: la scorrevolezza è facilitata dall’introduzione di un sistema telescopico di avvolgimento con cuscinetti, mentre un sistema permette al telo una tensione ottimale, anche in larghezze significative.',
 					},
+					{
+						name: 'evo zip duo incas',
+						image: 'https://imgur.com/JVPRCNI.jpg',
+						description:
+							'Sistema a scorrimento verticale, con telo avvolgibile ed azionamento a motore, dotata di cerniere saldate ai bordi',
+						varianti: ['EVO ZIP DUO'],
+						apertura: 'motorizzata, controllabile anche con radiocomando',
+						adatta:
+							'finestra e portafinestra (anche di larghezza ampia) soprattutto in zone molto ventilate',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti e filtranti adatti anche per l’esterno.\n\nNella versione zanzariera viene fornita con rete in fibra di vetro grigia di serie oppure TuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero.',
+						cassonetto: 'squadrato autoportante da 130X280 mm.',
+						note: 'al suo interno, EVO ZIP DUO è dotata di una meccanica di funzionamento completamente rinnovata: la scorrevolezza è facilitata dall’introduzione di un sistema telescopico di avvolgimento con cuscinetti. Il telo resta sempre ben tensionato anche in larghezze significative, attraverso una lavorazione dedicata.',
+					},
+					{
+						name: 'new securzip incas',
+						image: 'https://imgur.com/HexV6Tt.jpg',
+						description:
+							'Zanzariera per l’installazione ad incasso a scorrimento verticale e rete avvolgibile, con azionamento a motore o motore radiocomandato.',
+						varianti: [
+							[
+								'NEW SECURZIP 85 INCAS MOTORE',
+								'NEW SECURZIP 100 INCAS MOTORE',
+								'NEW SECURZIP 125 INCAS MOTORE',
+							],
+						],
+						apertura: 'motorizzato, controllabile anche con radiocomando.',
+						adatta: 'finestra e portafinestra (anche di larghezza ampia).',
+						cassonetto: 'da 85 /100 / 125 mm',
+						rete: 'dotato di cerniera zip, applicata alle estremità del telo, che garantisce massima tenuta e resistenza al vento, impedendone la fuoriuscita dalle guide laterali. Sono disponibili anche diverse tipologie di teli oscuranti, filtranti e Cristal, adatti anche per l’esterno\n\nNella versione zanzariera viene fornita con rete nera STRONG di serie oppure TuffScreen™, ad elevata solidità, le cui maglie ritornano nella posizione corretta se subiscono piccole perforazioni.',
+						fornita: 'su misura',
+						opzione: 'profili di compensazione guide per incasso.',
+						line: 'accessori in vista a colore. Disponibili nei colori bianco, avorio, grigio e nero.',
+					},
+				],
+			},
+		],
+	},
+	{
+		title: 'tende a rullo',
+		image: 'https://imgur.com/U4NyjKB.jpg',
+		subcategories: [
+			{
+				name: 'libere',
+				image: 'https://imgur.com/IZyeJut.jpg',
+				models: [
+					{
+						name: 'elite catena',
+						image: 'https://imgur.com/IZyeJut.jpg',
+						description: 'Tenda a rullo comando a catena',
+						varianti: ['MV34C', 'MV34CS', 'MV46C', 'MV53C'],
+						note: 'Tubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e con ogiva per facilitare la manutenzione del telo.\nDiametro 34/46/53 mm, a seconda della larghezza della tenda.\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6060, verniciato a polvere in RAL bianco\n9010/verniciato argento/nero opaco RAL 9005.\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco nero e grigio.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a\npolvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nSupporti a scatto PUSH per facilitare il montaggio a soffitto/parete fino a 150 cm (standard per il\nmodello MV34C e a richiesta per i modelli MV34CS, MV46C e MV53C).\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV34CS, MV46C e MV53C).\n\nKit opzionale per fissaggio a pavimento con cavetti in acciaio inox per versioni guidate.\nMeccanismi di comando frizionati, tutti dotati di molla di compensazione in acciaio armonico, inserita\nal lato opposto del comando, la cui funzione permette di diminuire lo sforzo durante la salita della\ntenda e di rendere la movimentazione fluida senza strappi.\nUn innovativo meccanismo permette di regolare la carica della molla evitando di smontare la tenda (in\nfunzione delle dimensioni e del peso del tessuto, sono impiegati 12 modelli di molle).\nBlocco preciso della tenda in qualsiasi posizione.\nCatenella di comando da mm 4.5×6 in plastica bianca, grigia o nera (opzionale in ottone cromato),\nposizionabile a destra o a sinistra.\nTendicatena trasparente (conforme alla Direttiva 16433/16434)',
+					},
 				],
 			},
 		],

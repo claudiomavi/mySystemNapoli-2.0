@@ -394,6 +394,7 @@ form button:active {
 	text-align: center;
 	text-transform: uppercase;
 	box-shadow: var(--shadow);
+	margin-bottom: 2em;
 }
 
 .categories p {

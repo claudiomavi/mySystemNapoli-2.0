@@ -1082,28 +1082,6 @@ export const categoriesData = [
 		image: 'https://imgur.com/3jjiEre.jpg',
 		subcategories: [
 			{
-				name: 'pvc',
-				image: 'https://imgur.com/TaXH8nX.jpg',
-				models: [
-					{
-						name: '50',
-						image: 'https://imgur.com/TaXH8nX.jpg',
-						description: 'description of 50',
-					},
-				],
-			},
-			{
-				name: 'alluminio',
-				image: 'https://imgur.com/xt9cn2z.jpg',
-				models: [
-					{
-						name: '1550',
-						image: 'https://imgur.com/xt9cn2z.jpg',
-						description: 'description of 1550',
-					},
-				],
-			},
-			{
 				name: 'sicurezza',
 				image: 'https://imgur.com/15ZL0Gq.jpg',
 				models: [

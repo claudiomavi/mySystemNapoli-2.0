@@ -446,6 +446,7 @@ form button:active {
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: var(--primary);
+	margin: 1em auto;
 }
 
 .type img {
@@ -486,6 +487,7 @@ form button:active {
 	width: 100%;
 	box-shadow: var(--shadow);
 	aspect-ratio: 1;
+	margin-bottom: 1em;
 }
 
 .model .caratteristiche {
@@ -630,6 +632,59 @@ form button:active {
 
 	.button:hover .icon {
 		transform: translate(6px);
+	}
+
+	/* CATEGORIES PAGE */
+
+	.categories-div {
+		margin: 5em 2em;
+	}
+
+	.types {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 1em;
+	}
+
+	.categories-div h2 {
+		font-size: 1.8rem;
+	}
+
+	.categories {
+		max-width: 300px;
+		min-height: 230px;
+		margin-bottom: 0;
+	}
+
+	/* MODELS PAGE */
+
+	.programas-wrap {
+		display: flex;
+		flex-direction: column;
+		background-color: var(--background);
+		color: var(--text);
+		margin: 5em 1em;
+		padding: 2em 1em;
+		text-align: center;
+	}
+
+	.type {
+		max-width: 300px;
+		min-width: 262px;
+		margin: 0;
+		margin-bottom: 0;
+	}
+
+	.type a {
+		padding: 1em;
+	}
+
+	/* MODEL PAGE */
+
+	.upper-container {
+		display: flex;
 	}
 
 	/* ABOUT PAGE */

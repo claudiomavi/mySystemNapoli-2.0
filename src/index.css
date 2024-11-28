@@ -113,6 +113,15 @@ footer i:hover {
 
 /* FORM COMPONENT */
 
+.form-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.img-box {
+	display: none;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -493,6 +502,7 @@ form button:active {
 }
 
 /* ABOUT PAGE */
+
 .about {
 	display: flex;
 	flex-direction: column;
@@ -522,4 +532,115 @@ form button:active {
 
 .about strong {
 	color: var(--accent);
+}
+
+/* MEDIA QUERYS */
+
+@media (min-width: 750px) {
+	/* HEADER COMPONENT */
+
+	nav {
+		flex-direction: row;
+		padding: 1em 2em;
+	}
+
+	nav ul li {
+		font-size: 1.2rem;
+	}
+
+	/* FORM COMPONENT */
+
+	.form-container {
+		flex-direction: row;
+		padding: 2em 0;
+	}
+
+	.img-box {
+		display: block;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		border-radius: 4px;
+	}
+
+	form {
+		width: 100%;
+		padding: 5em 2em;
+	}
+
+	form h3 {
+		font-size: 1.8rem;
+	}
+
+	.form__group {
+		padding: 1.5em 0 0;
+	}
+
+	.form__field {
+		font-size: 1.2rem;
+	}
+
+	.form__field:placeholder-shown ~ .form__label {
+		font-size: 1.2rem;
+	}
+
+	.form__label {
+		font-size: 1.2rem;
+	}
+
+	.form__field:focus ~ .form__label {
+		font-size: 1.2rem;
+	}
+
+	form button {
+		width: 80%;
+	}
+
+	/* HOME PAGE */
+
+	.main-wrap {
+		row-gap: 2em;
+		margin: 0 2em;
+		padding: 2em;
+	}
+
+	.main-wrap h1 {
+		font-size: 1.8rem;
+	}
+
+	.main-wrap p {
+		font-size: 1.2rem;
+	}
+
+	.cta-buttons {
+		flex-direction: row;
+		gap: 5em;
+	}
+
+	.button {
+		padding-inline: 1.5rem;
+		gap: 1em;
+		font-size: 1.4rem;
+	}
+
+	.icon {
+		width: 30px;
+		height: 30px;
+	}
+
+	.button:hover .icon {
+		transform: translate(6px);
+	}
+
+	/* ABOUT PAGE */
+
+	.about {
+		margin: 5em;
+		padding: 2em;
+	}
+
+	.about p {
+		line-height: 1.8rem;
+		letter-spacing: 0.3px;
+	}
 }

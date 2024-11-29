@@ -1127,10 +1127,39 @@ export const categoriesData = [
 				models: [
 					{
 						name: 'bilbao',
-						image: '',
-						description: '',
-						varianti: [],
-						note: '',
+						image: 'https://imgur.com/HcnlPbW.jpg',
+						varianti: ['bilbao'],
+						note: 'Tenda da sole con bracci di estensione in alluminio e catena triplex in acciaio inox. Possibilità di regolazione micrometrica dell’inclinazione dei singoli bracci al momento della installazione. Movimentazione bracci su bronzine autolubrificanti. <br/> <br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
+					},
+					{
+						name: 'madrid',
+						image: 'https://imgur.com/EDxQXtP.jpg',
+						varianti: ['madrid'],
+						note: 'Tenda da sole con bracci di estensione in alluminio e con catena triplex in acciaio inox. Possibilità di regolazione micrometrica dell’inclinazione dei singoli bracci al momento della installazione.<br/> Movimentazione bracci su bronzine autolubrificanti.<br/>\nBraccio aggiuntivo a richiesta.<br/><br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
+					},
+					{
+						name: 'panama',
+						image: 'https://imgur.com/7AA72Ej.jpg',
+						varianti: ['panama'],
+						note: 'Tenda da sole con bracci di estensione in alluminio con catena triplex in acciaio inox. Possibilità di regolazione micro-metrica dell’inclinazione dei singoli bracci al momento dell’installazione. Movimentazione bracci su bronzine autolubrificanti. Snodi, puntali e attacco braccio sono in alluminio forgiato ad altissima resistenza meccanica.<br/> <br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
+					},
+					{
+						name: 'samba',
+						image: 'https://imgur.com/BTJhGil.jpg',
+						varianti: ['samba'],
+						note: 'Tenda da sole con bracci di estensione in alluminio con catena triplex in acciaio inox. Possibilità di regolazione micrometrica dell’inclinazione dei singoli bracci al momento della installazione. Movimentazione bracci su bronzine autolubrificanti.<br/> <br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
+					},
+					{
+						name: 'samba smart',
+						image: 'https://imgur.com/BTJhGil.jpg',
+						varianti: ['samba smart'],
+						note: 'Tenda da sole con bracci di estensione in alluminio con catena triplex in acciaio inox. Possibilità di regolazione micrometrica dell’inclinazione dei singoli bracci al momento della installazione. Movimentazione bracci su bronzine autolubrificanti.<br/> <br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
+					},
+					{
+						name: 'america',
+						image: 'https://imgur.com/DcIk8KR.jpg',
+						varianti: ['america'],
+						note: 'Tenda da sole con bracci di estensione in alluminio con catena triplex in acciaio inox. Possibilità di regolazione micro-metrica dell’inclinazione dei singoli bracci al momento della installazione. Movimentazione bracci su bronzine autolubrificanti. È dotata di una barra frangivento centrale che permette una migliore tensione del telo e una migliore tenuta al vento. <br/> <br/>\n\nLe tende sono normalmente progettate per una inclinazione minima di 25-30°. Con pendenze inferiori, quindi con tende montate quasi in orizzontale, si potrebbe avere una scarsa tensione del telo nella parte centrale dovuta al peso stesso del tessuto.',
 					},
 				],
 			},

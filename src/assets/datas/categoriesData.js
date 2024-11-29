@@ -1117,4 +1117,53 @@ export const categoriesData = [
 			},
 		],
 	},
+	{
+		title: 'tende da sole',
+		image: 'https://imgur.com/6aTcada.jpg',
+		subcategories: [
+			{
+				name: 'tende a bracci senza cassonetto',
+				image: 'https://imgur.com/uscWO9c.jpg',
+				models: [
+					{
+						name: 'bilbao',
+						image: '',
+						description: '',
+						varianti: [],
+						note: '',
+					},
+				],
+			},
+			{
+				name: 'tende a bracci con cassonetto',
+				image: 'https://imgur.com/kF6pSMM.jpg',
+				models: [],
+			},
+			{
+				name: 'cappottine fisse e mobili',
+				image: 'https://imgur.com/oQxC5V3.jpg',
+				models: [],
+			},
+			{
+				name: 'tende a caduta',
+				image: 'https://imgur.com/7Uyxtfg.jpg',
+				models: [],
+			},
+			{
+				name: 'tende classiche',
+				image: 'https://imgur.com/U8LZk4Q.jpg',
+				models: [],
+			},
+			{
+				name: 'giardino e patio',
+				image: 'https://imgur.com/odCKGr2.jpg',
+				models: [],
+			},
+			{
+				name: 'tende orizzontali',
+				image: 'https://imgur.com/e810TWn.jpg',
+				models: [],
+			},
+		],
+	},
 ]

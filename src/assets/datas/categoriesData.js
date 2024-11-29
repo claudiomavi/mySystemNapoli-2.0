@@ -978,7 +978,7 @@ export const categoriesData = [
 						image: 'https://imgur.com/IZyeJut.jpg',
 						description: 'Tenda a rullo comando a catena',
 						varianti: ['MV34C', 'MV34CS', 'MV46C', 'MV53C'],
-						note: 'Tubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e con ogiva per facilitare la manutenzione del telo.<br />Diametro 34/46/53 mm, a seconda della larghezza della tenda.\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6060, verniciato a polvere in RAL bianco\n9010/verniciato argento/nero opaco RAL 9005.<br />\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco nero e grigio.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a\npolvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nSupporti a scatto PUSH per facilitare il montaggio a soffitto/parete fino a 150 cm (standard per il\nmodello MV34C e a richiesta per i modelli MV34CS, MV46C e MV53C).\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV34CS, MV46C e MV53C).\n\nKit opzionale per fissaggio a pavimento con cavetti in acciaio inox per versioni guidate.\nMeccanismi di comando frizionati, tutti dotati di molla di compensazione in acciaio armonico, inserita\nal lato opposto del comando, la cui funzione permette di diminuire lo sforzo durante la salita della\ntenda e di rendere la movimentazione fluida senza strappi.\nUn innovativo meccanismo permette di regolare la carica della molla evitando di smontare la tenda (in\nfunzione delle dimensioni e del peso del tessuto, sono impiegati 12 modelli di molle).\nBlocco preciso della tenda in qualsiasi posizione.\nCatenella di comando da mm 4.5×6 in plastica bianca, grigia o nera (opzionale in ottone cromato),\nposizionabile a destra o a sinistra.\nTendicatena trasparente (conforme alla Direttiva 16433/16434)',
+						note: 'Tubo avvolgitore in alluminio estruso lega 6063 con speciali raggiature all’interno, per evitare la flessione e con ogiva per facilitare la manutenzione del telo.\nDiametro 34/46/53 mm, a seconda della larghezza della tenda.\nProfilo di premontaggio (portarullo) estruso in alluminio lega 6060, verniciato a polvere in RAL bianco\n9010/verniciato argento/nero opaco RAL 9005.\nStaffe laterali in acciaio con cover di copertura in plastica di colore bianco nero e grigio.\nFondale in alluminio estruso lega 6060, a sezione ovale di serie: dimensioni mm 18 x 24, verniciato a\npolvere bianco RAL 9010/ verniciato argento/nero opaco RAL 9005; opzionale a sezione rettangolare.\nTappi di chiusura fondale in plastica nei colori bianco/nero/grigio.\nSupporti a scatto PUSH per facilitare il montaggio a soffitto/parete fino a 150 cm (standard per il\nmodello MV34C e a richiesta per i modelli MV34CS, MV46C e MV53C).\nSupporti girevoli a chiavetta per fissaggio a soffitto/parete (standard per MV34CS, MV46C e MV53C).\n\nKit opzionale per fissaggio a pavimento con cavetti in acciaio inox per versioni guidate.\nMeccanismi di comando frizionati, tutti dotati di molla di compensazione in acciaio armonico, inserita\nal lato opposto del comando, la cui funzione permette di diminuire lo sforzo durante la salita della\ntenda e di rendere la movimentazione fluida senza strappi.\nUn innovativo meccanismo permette di regolare la carica della molla evitando di smontare la tenda (in\nfunzione delle dimensioni e del peso del tessuto, sono impiegati 12 modelli di molle).\nBlocco preciso della tenda in qualsiasi posizione.\nCatenella di comando da mm 4.5×6 in plastica bianca, grigia o nera (opzionale in ottone cromato),\nposizionabile a destra o a sinistra.\nTendicatena trasparente (conforme alla Direttiva 16433/16434)',
 					},
 					{
 						name: 'elite argano',
@@ -1086,9 +1086,32 @@ export const categoriesData = [
 				image: 'https://imgur.com/15ZL0Gq.jpg',
 				models: [
 					{
-						name: 'solaria',
+						name: 'orienta',
+						image: 'https://imgur.com/BJV1xae.jpg',
+						description: 'L’AVVOLGIBILE A STECCHE ORIENTABILI SENZA MECCANISMO DI ROTAZIONE',
+						varianti: ['orienta', 'orienta reverse'],
+						note: '<br/><br/><ul>\n<li>- Peso del telo <strong>9 kg/mq</strong></li>\n<li>- N° di lamelle per metro di altezza <strong>18</strong></li>\n<li>- Interasse lamella-lamella, telo in posizione frangisole <strong>54.9 mm</strong></li>\n<li>- Interasse lamella-lamella, telo chiuso <strong>63.5 mm</strong></li>\n<li>- Larghezza minima/massima telo finito <strong>da 600* mm a 3300 mm</strong></li>\n<li>- Altezza minima/massima luce arch. <strong>da 800 mm a 3000 mm</strong></li>\n<li>- Mq massimi  <strong>9,9 mq</strong></li>\n</ul>',
+					},
+					{
+						name: 'mini orienta',
 						image: 'https://imgur.com/15ZL0Gq.jpg',
-						description: 'description of Solaria',
+						description: 'AVVOLGIBILE IN ALLUMINIO ESTRUSO CON LE CARATTERISTICHE DI UN FRANGISOLE',
+						varianti: ['orienta mini', 'orienta mini reverse'],
+						note: 'Con le sue lamelle di <strong>interasse ridotto</strong>, il modello MINI permette di ottenere tutti i vantaggi della tapparella Orienta 2.0 anche in spazi limitati. Grazie ad un <strong>diametro di avvolgimento più contenuto</strong> si adatta anche a cassonetti di dimensioni inferiori allo standard.\n\nLe guide laterali di scorrimento da 14 mm, dotate di spazzolino, possono essere inserite anche <strong>all’interno delle guide tapparella preesistenti</strong>, per un’installazione pratica e veloce.\nAnche la privacy è migliorata, attraverso la <strong>riduzione della visibilità dall’esterno</strong>, quando le lamelle sono in posizione di frangisole.\n\nL’angolo di apertura delle lamelle, offre una corretta schermatura dai raggi solari e illumina gli ambienti con luce indiretta assicurando un efficace ricambio d’aria.\n\nIl suo aspetto <strong>si adatta a tutti gli stili architettonici</strong>.\nÈ utile nelle ristrutturazioni e utilizzabile anche con mini cassonetti esterni (avvolgimento esterno).',
+					},
+					{
+						name: 'sekurclim-sekurlook',
+						varianti: ['sekurclim', 'sekurlook'],
+						image: 'https://imgur.com/mz45879.jpg',
+						description: 'PROTEZIONE E COMFORT PER I TUOI SPAZI, SENZA RINUNCE',
+						note: '<strong>Sekurclim</strong> è la tapparella a stecche microforate, che favorisce il controllo della\nluminosità dell’ambiente garantendo un arieggiamento ottimale ed un buon\nlivello di sicurezza.\nGrazie al sistema di aggancio fra le lamelle e all’utilizzo di particolari profili\nautobloccanti, la tapparella riesce a contrastare l’eventuale sollevamento\ndall’esterno.<br /><br /><strong>Sekurlook</strong> è la tapparella a stecche asolate che offre un ampio passaggio di\naria e luce. La dimensione dell’asola 120 x 12 mm garantisce un’efficace\nschermatura dai raggi solari durante le ore del giorno e un veloce ricambio\nd’aria in totale sicurezza.',
+					},
+					{
+						name: 'solaria',
+						varianti: ['solaria'],
+						image: 'https://imgur.com/15ZL0Gq.jpg',
+						description: 'PIÙ SICUREZZA E COMFORT RISPETTO ALLE COMUNI TAPPARELLE',
+						note: '<strong>Solaria</strong> è un sistema brevettato di schermatura solare a caduta verticale più evoluto rispetto ai tradizionali sistemi frangisole e oscuranti, pur presentando gli stessi requisiti di installazione richiesti da una tapparella classica.\n\nÈ disponibile in tre versioni, che si differenziano in base alla distanza tra le doghe quando sono in posizione frangisole (12/24/38 mm), permettendo così di scegliere l’ampiezza del passaggio di luce/aria.\n\n \n\nSolaria assicura il comfort in ogni ambiente, nel rispetto dei parametri di efficienza energetica previsti dal protocollo ITACA.\nGrazie infatti alle sue caratteristiche tecniche, il sistema rientra a pieno titolo nelle Certificazioni Energetico Ambientali degli edifici indicate come Indoor”.\n\nSolaria è realizzata in alluminio estruso ed è <strong>certificata in classe 2 anti-effrazione</strong> con l’ausilio di catenaccioli inferiori ed intermedi di serie.\n\nLa possibilità di scegliere il numero di doghe da tenere aperte o chiuse offre molteplici soluzioni di oscuramento o irraggiamento.\n\nPer motivi di sicurezza, la movimentazione di Solaria deve avvenire esclusivamente con <strong>sistemi uomo presente</strong>, seguendo passopasso le operazioni di salita e discesa.',
 					},
 				],
 			},

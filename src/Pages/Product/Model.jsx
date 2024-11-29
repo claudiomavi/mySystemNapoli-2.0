@@ -97,9 +97,13 @@ export default function Model() {
 					</p>
 				)}
 				{renderModel[0].note && (
-					<p>
-						<span className="bold">Note:</span> {renderModel[0].note}
-					</p>
+					<div className="inline">
+						<span className="bold">Note: </span>
+						<p
+							dangerouslySetInnerHTML={{
+								__html: renderModel[0].note,
+							}}></p>
+					</div>
 				)}
 			</div>
 		</div>

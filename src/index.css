@@ -503,6 +503,10 @@ form button:active {
 	color: var(--accent);
 }
 
+.inline > * {
+	display: inline;
+}
+
 /* ABOUT PAGE */
 
 .about {

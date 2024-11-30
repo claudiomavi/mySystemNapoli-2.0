@@ -7,6 +7,7 @@ import Categories from './Pages/Product/Categories'
 import Types from './Pages/Product/Types'
 import Models from './Pages/Product/Models'
 import Model from './Pages/Product/Model'
+import NotFoundPage from './Pages/NotFoundPage'
 
 export default function App() {
 	return (
@@ -40,7 +41,7 @@ export default function App() {
 				/>
 				<Route
 					path="*"
-					element={<h1>Not found</h1>}
+					element={<NotFoundPage />}
 				/>
 			</Routes>
 

@@ -38,6 +38,10 @@ export default function App() {
 					path="/about"
 					element={<About />}
 				/>
+				<Route
+					path="*"
+					element={<h1>Not found</h1>}
+				/>
 			</Routes>
 
 			<Footer />

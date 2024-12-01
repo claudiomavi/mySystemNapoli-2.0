@@ -198,7 +198,7 @@ export const categoriesData = [
 					},
 					{
 						name: 'lara',
-						image: 'https://imgur.com/HtHeqpi.jpg',
+						image: 'https://imgur.com/jeaqhl1',
 						description: 'Zanzariera laterale a rete avvolgibile a molla, con bottoncino',
 						varianti: [
 							'LARA TOP 45/55',

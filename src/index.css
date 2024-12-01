@@ -491,7 +491,6 @@ form button:active {
 	text-transform: uppercase;
 	color: var(--accent);
 	transition: 0.3s all;
-	box-shadow: var(--shadow);
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
@@ -723,8 +722,7 @@ form button:active {
 	}
 
 	.type {
-		max-width: 300px;
-		min-width: 262px;
+		width: 30rem;
 		margin: 0;
 		margin-bottom: 0;
 	}

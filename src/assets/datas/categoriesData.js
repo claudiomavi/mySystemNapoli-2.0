@@ -1123,7 +1123,7 @@ export const categoriesData = [
 		subcategories: [
 			{
 				name: 'tende a bracci senza cassonetto',
-				image: 'https://imgur.com/uscWO9c.jpg',
+				image: 'https://imgur.com/MTXFMQt.jpg',
 				models: [
 					{
 						name: 'bilbao',
@@ -1310,17 +1310,194 @@ export const categoriesData = [
 			{
 				name: 'tende classiche',
 				image: 'https://imgur.com/U8LZk4Q.jpg',
-				models: [],
+				models: [
+					{
+						name: 'retrò 6000',
+						image: 'https://imgur.com/Dww8zWl.jpg',
+						varianti: ['retró 6000'],
+						note: 'Tenda a bracci laterali con sporgenze uguali all’ingombro. Può essere fissata con ancoraggio a parete o a soffitto e può essere montata su prospetti di ville e negozi. Il comando è ad arganello e permette di bloccarne l’apertura delle tende a qualsiasi altezza.',
+					},
+					{
+						name: 'leuca',
+						image: 'https://imgur.com/lmwKCyF.jpg',
+						varianti: ['leuca'],
+						note: 'La Leuca è una tenda con cassonetto a chiusura totale provvista di bracci a molla. Perfetta per le attività commerciali. Il telo viene raccolto e i bracci seguono il terminale, senza necessità di compiere ulteriori operazioni. Comoda, elegante e versatile.',
+					},
+					{
+						name: 'classique',
+						image: 'https://imgur.com/5nzZuah.jpg',
+						varianti: ['classique'],
+						note: 'Tenda elegante, ideale per abbellire ville in stile antico, case poste nei centri storici, bar, ristoranti, boutique e negozi in genere. La struttura è realizzata in ferro battuto, verniciata a polveri. L’ingombro della tenda è sempre uguale alla sporgenza. Di facile utilizzo e montaggio.',
+					},
+				],
 			},
 			{
 				name: 'giardino e patio',
 				image: 'https://imgur.com/odCKGr2.jpg',
-				models: [],
+				models: [
+					{
+						name: 'corfú',
+						image: 'https://imgur.com/EFTR6jS.jpg',
+						varianti: ['corfú'],
+						note: 'La Corfù è una soluzione ideale per terrazze, balconi e patii, particolarmente versatile per le attività commerciali. <br/>\nRobustissima, si presta a raggiungere grandi dimensioni con configurazioni a più moduli. <br/>\nDisponibile con comando a molla o motorizzabile.',
+					},
+					{
+						name: 'giardino 94',
+						image: 'https://imgur.com/rW9Ybxu.jpg',
+						varianti: ['giardino 94'],
+						note: 'Tenda con caratteristiche simili al modello Corfù. L’originale sezione delle guide di scorrimento permette, grazie alla scanalatura posta nella parte inferiore del profilo, di inserire eventuali teli laterali che, grazie ad appositi cuscinetti in delrin, scorrono lateralmente. Le guide infine vengono intervallate da un giunto intermedio che inclina la struttura in avanti di 4°. Il maggior appoggio sui rulli frangivento, e la migliore tensione del telo garantiscono maggiore resistenza al vento.',
+					},
+				],
 			},
 			{
 				name: 'tende orizzontali',
 				image: 'https://imgur.com/e810TWn.jpg',
-				models: [],
+				models: [
+					{
+						name: 'millenium',
+						image: 'https://imgur.com/HvkCl9C.jpg',
+						varianti: ['millenium'],
+						note: 'L’intera struttura è in alluminio, la tensione del telo è garantita da un sistema motorizzato che agisce su una speciale molla posizionata all’interno del terminale e tramite un sistema di carrucole e cavi agganciati direttamente al rullo avvolgitore.',
+					},
+					{
+						name: 'tenda roll',
+						image: 'https://imgur.com/l3gTH3h.jpg',
+						varianti: ['tenda roll cassonetto', 'tenda roll senza cassonetto'],
+						note: 'Tenda con manovra ad argano o motore con cinghie di traino e richiamo a molla.',
+					},
+				],
+			},
+		],
+	},
+	{
+		title: 'pergole e ombreggianti',
+		image: 'https://imgur.com/0SPTyYb.jpg',
+		subcategories: [
+			{
+				name: 'bioclimatiche',
+				image: 'https://imgur.com/lQdLtL1.jpg',
+				models: [
+					{
+						name: 'ischia',
+						image: 'https://imgur.com/7YvbAhr.jpg',
+						varianti: ['ischia'],
+						note: 'La pergola bioclimatica offre un controllo totale del passaggio della luce solare diretta e dell’arieggiamento, grazie al sistema a lamelle in alluminio orientabili fino a 140°. La struttura è autoportante e si può installare sia a ridosso di una parete oppure a isola, anche in moduli affiancati. Il sistema motorizzato per l’azionamento delle lamelle, fornito di serie, ha una potenza che permette di coprire ampie superfici con un unico modulo. <br/> <br/>\n\nIl telaio può essere dotato di illuminazione a led, per creare un’atmosfera rilassante e d’effetto all’interno dello spazio, quando la luce esterna è insufficiente. <br/> <br/>\n\nConfigurando la pergola con l’aggiunta di vetrate scorrevoli oppure con il sistema di schermatura solare Evo Zip, è possibile completare la protezione anche lungo i lati della struttura, per godere al meglio degli spazi esterni anche nei periodi più freddi dell’anno.',
+					},
+					{
+						name: 'elba',
+						image: 'https://imgur.com/FBklgV9.jpg',
+						varianti: ['elba'],
+						note: 'Elba è una pergola a lamelle orientabili fino a 140°, progettata e strutturata per soddisfare pienamente l’esigenza di protezione dal sole anche in spazi esterni dalle dimensioni ridotte. La sua conformazione è infatti più snella e dall’ingombro minimo ma allo stesso tempo altamente solida e sicura, per durare nel tempo senza problemi. È autoportante e si installa sia addossata a parete che a isola, anche in moduli affiancati, gestibili nell’azionamento da un solo motore lineare di serie, grazie alla sua elevata potenza. Le proprietà bioclimatiche del frangisole offrono un ottimo controllo sulla luce solare diretta e dell’arieggiamento, variabile a seconda dei momenti della giornata. Il sistema opzionale di illuminazione a led lungo il telaio garantisce l’utilizzo del prodotto anche di sera, ricreando al suo interno tutta l’atmosfera di un salotto fuori dalle mura di casa.',
+					},
+					{
+						name: 'ondula',
+						image: 'https://imgur.com/NsDquj7.jpg',
+						varianti: ['ondula'],
+						note: 'Un sistema di copertura unico e innovativo composto da lamelle in alluminio e speciali guide a scorrimento, che in posizione di chiusura protegge dalla pioggia (6 mm/h) e dal sole. Il suo design elegante è la soluzione ideale per diversi spazi anche fuori squadro: terrazze, pergolati, gazebo e verande.',
+					},
+					{
+						name: 'raincover',
+						image: 'https://imgur.com/W4hz9Vb.jpg',
+						varianti: ['raincover'],
+						note: 'Sistema in lame di alluminio regolabili contraddistinte da una particolare scanalatura, in grado di garantire la massima schermatura dal sole ed una perfetta tenuta dalla pioggia (6 mm/h) quando è in posizione di chiusura ermetica. Rain Cover si adatta elegantemente a qualsiasi contesto, dal giardino agli attici, a pergolati, gazebo o verande.',
+					},
+				],
+			},
+			{
+				name: 'pergotenda',
+				image: 'https://imgur.com/6gyTwMw.jpg',
+				models: [
+					{
+						name: 'new lipari',
+						image: 'https://imgur.com/YtIweyi.jpg',
+						varianti: ['new lipari'],
+						note: 'Una tenda a pergola con telo di protezione in PVC ignifugo, realizzata in profili di alluminio laccati con processi che garantiscono una perfetta protezione dalla corrosione ambientale. L’evacuazione dell’acqua raccolta sulla tenda defluisce lateralmente sulla trave frontale, che funge anche da gronda. Oltre alla resistenza alla pioggia e al vento, Lipari offre un’ottima protezione dal sole.',
+					},
+				],
+			},
+			{
+				name: 'schermature verticali',
+				image: 'https://imgur.com/u2AcLl9.jpg',
+				models: [
+					{
+						name: 'pala frangisole',
+						image: 'https://imgur.com/VTpKMDN.jpg',
+						varianti: ['pala frangisole'],
+						note: 'Un efficace sistema che consente il filtraggio della luce negli ambienti ed il controllo ottimale della temperatura degli interni, garantendo condizioni climatiche ideali in qualunque stagione. <br/>\nLa gamma di profili e accessori offre la possibilità di soddisfare qualsiasi esigenza architettonica. Il sistema a pale fisse consente di realizzare schermature con pale ad inclinazione prestabilita.',
+					},
+				],
+			},
+			{
+				name: 'ombregganti',
+				image: 'https://imgur.com/zCg607u.jpg',
+				models: [
+					{
+						name: 'soubrette',
+						image: 'https://imgur.com/1ttnd6l.jpg',
+						varianti: ['soubrette'],
+						note: 'L’eleganza dell’ombrellone e la tecnologia della tenda da sole fuse in un solo prodotto. Soubrette è la scelta perfetta per ombreggiare gli spazi senza ricorrere ad installazioni permanenti. Azionabile anche opzionalmente a motore con radio comando, il cassonetto di protezione della tenda ripara totalmente il tessuto in caso di inutilizzo. La chiusura può essere sottoposta anche a controllo mediante sensore vento opzionale.',
+					},
+					{
+						name: 'b-square',
+						image: 'https://imgur.com/hkKvsSV.jpg',
+						varianti: ['b-square'],
+						note: 'Sistema ombreggiante a palo singolo e dotato di trave orizzontale, dalla quale si diramano due tende da sole. Ciascuna tenda è montata su doppio braccio, che si estende lateralmente fino a produrre una grande superficie unica ombreggiante. <br/>\nB-Square può essere anche azionato con motore radiocomandato opzionale e con chiusura gestita da sensore vento di sicurezza.',
+					},
+					{
+						name: 'stealth',
+						image: 'https://imgur.com/JExMyfs.jpg',
+						varianti: ['stealth'],
+						note: 'Un sistema ombreggiante a palo singolo, dotato di doppio telo che si apre simmetricamente, formando un disegno trapezoidale. I due teli sono messi in tensione da un solo braccio e si riavvolgono su un unico rullo. Stealth può essere anche azionato con motore radiocomandato opzionale e con chiusura gestita da sensore vento di sicurezza.',
+					},
+					{
+						name: 'nuvola',
+						image: 'https://imgur.com/hzsl2I2.jpg',
+						varianti: ['nuvola'],
+						note: 'Armoniosa ed elegante nelle forme, l’ombreggiante protegge dal sole arredando efficacemente spazi esterni come terrazze, ristoranti, patii, piscine.\nGrazie all’ampia gamma di colori per le coperture in tessuto ed alle linee sobrie ed essenziali della struttura in alluminio, Nuvola soddisfa completamente ogni esigenza di installazione.',
+					},
+				],
+			},
+			{
+				name: 'vetrate panoramiche',
+				image: 'https://imgur.com/2JRGGFp.jpg',
+				models: [
+					{
+						name: 'brillante',
+						image: 'https://imgur.com/2JRGGFp.jpg',
+						varianti: ['brillante'],
+						note: 'Il più versatile dei sistemi di chiusura, composto da pannelli scorrevoli in vetro temprato ad impacchettamento totale, ribaltabili e privi di giunzioni, per la massima flessibilità di utilizzo. Lo scorrimento avviene su guide superiori in alluminio e guide inferiori sovrapposte oppure incassate a pavimento.\nI pannelli in cristallo temprato da 10 mm di spessore assicurano la massima protezione dagli agenti atmosferici. Il sistema di scivolamento delle ante consente la realizzazione di chiusure in qualsiasi forma geometrica nonché l’apertura dei pannelli sia verso l’esterno che verso l’interno.',
+					},
+					{
+						name: 'scintilla',
+						image: 'https://imgur.com/FLnHDqA.jpg',
+						varianti: ['scintilla'],
+						note: 'Un efficace sistema di chiusura ad ante in cristallo temprato, che scorrono parallelamente e possono essere impacchettate sia a destra che a sinistra della guida. Scintilla è dotato di un innovativo gancio di traino integrato, che permette l’apertura e la chiusura automatica delle ante.',
+					},
+				],
+			},
+			{
+				name: 'tunnel e pensiline',
+				image: 'https://imgur.com/LsslgHh.jpg',
+				models: [
+					{
+						name: 'pensilina',
+						image: 'https://imgur.com/WCF04jx.jpg',
+						varianti: ['pensilina'],
+						note: 'La struttura in alluminio e la copertura è realizzata in policarbonato compatto 3 mm o alveolare 6 mm.',
+					},
+					{
+						name: 'tunnel policarbonato',
+						image: 'https://imgur.com/ox8tzs1.jpg',
+						varianti: ['tunnel policarbonato'],
+						note: 'Composto interamente in alluminio con copertura in policarbonato alveolare o compatto, è la soluzione ideale per coprire grandi spazi, ingressi, o ampliare spazi esterni di ristoranti e bar. La robustissima struttura, tecnologicamente avanzata, è provvista di giunti angolari per l’ancoraggio dei montanti (provvisti di grondaia interna) e può essere installata anche senza che venga appoggiata a parete.',
+					},
+					{
+						name: 'tunnel pvc',
+						image: 'https://imgur.com/UVgtpVh.jpg',
+						varianti: ['tunnel pvc'],
+						note: 'Struttura tecnologicamente avanzata, interamente in alluminio, ideale per coprire grandi spazi, ingressi, o ampliare spazi esterni di ristoranti e bar.La robustissima struttura provvista di giunti angolari per l’ancoraggio dei montanti (provvisti di grondaia interna), può essere installata anche senza che venga appoggiata a parete. La facilità di assemblaggio permette di utilizzare la copertura anche per allestimenti stagionali. È possibile infine fissare una cupola sul davanti del tunnel conferendo a questo un aspetto molto gradevole.',
+					},
+				],
 			},
 		],
 	},

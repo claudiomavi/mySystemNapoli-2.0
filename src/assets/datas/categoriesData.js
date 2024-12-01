@@ -115,7 +115,7 @@ export const categoriesData = [
 			},
 			{
 				name: 'laterali',
-				image: 'https://imgur.com/HtHeqpi.jpg',
+				image: 'https://imgur.com/8ZbK28L.jpg',
 				models: [
 					{
 						name: 'bora mini',

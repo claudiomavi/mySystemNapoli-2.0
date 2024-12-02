@@ -487,13 +487,14 @@ form button:active {
 }
 
 .type a {
+	height: 100%;
 	display: flex;
 	text-transform: uppercase;
 	color: var(--accent);
 	transition: 0.3s all;
 	flex-direction: column;
-	flex-wrap: wrap;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .type a:hover {
@@ -705,7 +706,7 @@ form button:active {
 
 	.categories {
 		max-width: 300px;
-		min-height: 230px;
+		height: 230px;
 		margin-bottom: 0;
 	}
 
@@ -722,7 +723,8 @@ form button:active {
 	}
 
 	.type {
-		width: 30rem;
+		width: 300px;
+		height: 300px;
 		margin: 0;
 		margin-bottom: 0;
 	}

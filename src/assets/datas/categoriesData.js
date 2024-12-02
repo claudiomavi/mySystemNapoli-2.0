@@ -1063,7 +1063,7 @@ export const categoriesData = [
 				],
 			},
 			{
-				name: 'orizzontali a doppio cassonetto',
+				name: 'orizzontali 2 cassonetti',
 				image: 'https://imgur.com/uNOAZNV.jpg',
 				models: [
 					{

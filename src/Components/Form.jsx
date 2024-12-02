@@ -20,7 +20,7 @@ export default function Form() {
 						required=""
 					/>
 					<label
-						htmlFor="name"
+						htmlFor="azienda"
 						className="form__label">
 						Nome dell&apos;azienda
 					</label>

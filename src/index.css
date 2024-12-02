@@ -518,7 +518,6 @@ form button:active {
 	margin: 0 auto;
 	width: 100%;
 	box-shadow: var(--shadow);
-	aspect-ratio: 1;
 	margin-bottom: 1em;
 }
 
@@ -528,6 +527,8 @@ form button:active {
 	display: flex;
 	flex-direction: column;
 	gap: 0.5em;
+	line-height: 1.8em;
+	letter-spacing: 0.2px;
 }
 
 .model .caratteristiche .bold {
@@ -560,6 +561,8 @@ form button:active {
 
 .about img {
 	width: 100%;
+	border-radius: 1em;
+	margin: 2em 0;
 }
 
 .about p {
@@ -739,6 +742,15 @@ form button:active {
 		display: flex;
 	}
 
+	.model .caratteristiche {
+		display: block;
+		column-count: 2;
+	}
+
+	.model img {
+		width: 30em;
+	}
+
 	/* ABOUT PAGE */
 
 	.about {
@@ -749,5 +761,10 @@ form button:active {
 	.about p {
 		line-height: 1.8rem;
 		letter-spacing: 0.3px;
+	}
+
+	.container {
+		column-gap: 2em;
+		column-count: 2;
 	}
 }
